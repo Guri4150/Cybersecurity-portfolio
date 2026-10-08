@@ -9,7 +9,9 @@ I enjoy investigating security problems, documenting findings clearly, and conne
 
 ## Featured learning projects
 
-These write-ups reconstruct training exercises and document example investigation methods. They are educational work, not production security engagements. Original screenshots, packet captures, and lab transcripts are not included; examples and expected results are labeled accordingly.
+Projects 01–05 reconstruct training exercises and document example investigation methods. They are educational work, not production security engagements. Original screenshots, packet captures, and lab transcripts are not included; examples and expected results are labeled accordingly.
+
+Projects 06 and 07 include runnable Python, fictional input, automated tests, and example output. Project 07 is an offline SIEM-style correlation exercise; an actual SIEM deployment remains a future development goal. These projects do not claim production security experience.
 
 | Project | What it demonstrates | Tools / concepts |
 |---|---|---|
@@ -18,6 +20,8 @@ These write-ups reconstruct training exercises and document example investigatio
 | [Network traffic investigation](projects/03-network-traffic.md) | A repeatable DNS and HTTP analysis workflow | Wireshark, tcpdump |
 | [File integrity verification](projects/04-file-integrity.md) | Comparing files using cryptographic hashes | Linux, SHA-256 |
 | [SOC incident triage case study](projects/05-incident-triage.md) | Evaluating alerts, preserving evidence, and documenting decisions | Incident response, risk, escalation |
+| [Python authentication-log parser](projects/06-auth-log-parser/README.md) | Validating fictional logs and summarizing authentication outcomes | Python, JSONL, unittest |
+| [Synthetic SIEM-style alert investigation](projects/07-siem-alert-investigation/README.md) | Time-window correlation, alert triage, severity and response reasoning | Python, detection logic, SOC documentation |
 
 ## Skills and current depth
 
@@ -53,8 +57,8 @@ These roles developed my attention to detail, procedure adherence, discrepancy r
 ## Next development goals
 
 - Add sanitized evidence from repeatable home-lab exercises.
-- Build a small SIEM lab and document an alert investigation.
-- Write and test a Python script for parsing synthetic authentication logs.
+- Run and explain the synthetic parser and alert-correlation projects locally.
+- Deploy an isolated SIEM lab, ingest fictional events, reproduce project 07's rule, and document the resulting alert with lab evidence.
 - Complete a vulnerability assessment in an isolated, authorized lab.
 
 See the [evidence checklist](docs/evidence-checklist.md) for how projects will be strengthened.
