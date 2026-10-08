@@ -13,6 +13,8 @@ Projects 01–05 reconstruct training exercises and document example investigati
 
 Projects 06 and 07 include runnable Python, fictional input, automated tests, and example output. Project 07 is an offline SIEM-style correlation exercise; an actual SIEM deployment remains a future development goal. These projects do not claim production security experience.
 
+Project 08 is a fictional vulnerability-assessment tabletop case study. Its lab design, evidence and findings are invented; scanning, remediation and validation have not been performed.
+
 | Project | What it demonstrates | Tools / concepts |
 |---|---|---|
 | [Linux permissions and access control](projects/01-linux-permissions.md) | Reviewing access and applying least privilege | Bash, ls, chmod |
@@ -22,6 +24,7 @@ Projects 06 and 07 include runnable Python, fictional input, automated tests, an
 | [SOC incident triage case study](projects/05-incident-triage.md) | Evaluating alerts, preserving evidence, and documenting decisions | Incident response, risk, escalation |
 | [Python authentication-log parser](projects/06-auth-log-parser/README.md) | Validating fictional logs and summarizing authentication outcomes | Python, JSONL, unittest |
 | [Synthetic SIEM-style alert investigation](projects/07-siem-alert-investigation/README.md) | Time-window correlation, alert triage, severity and response reasoning | Python, detection logic, SOC documentation |
+| [Fictional vulnerability assessment](projects/08-vulnerability-assessment-lab/README.md) | Lab scope, asset inventory, sample findings, prioritization and remediation planning | CVSS v3.1-style scoring, least privilege, validation criteria |
 
 ## Skills and current depth
 
