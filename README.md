@@ -59,6 +59,11 @@ These roles developed my attention to detail, procedure adherence, discrepancy r
 
 ## Execution status and next milestones
 
+[Recorded offline verification — 10 October 2026](docs/execution-evidence/2026-10-10-assistant-linux/README.md):
+12 parser tests and 10 correlation tests passed in the assistant's Linux
+preparation environment; generated JSON matched both committed examples.
+This is separate from my own local execution and the pending lab milestones.
+
 - **Completed offline artifacts:** Projects 06–07 contain runnable Python,
   fictional inputs, automated tests and example output. Project 07 is an
   offline SIEM-style exercise, not a deployed SIEM. Project 08 is a fictional

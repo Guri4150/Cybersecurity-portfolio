@@ -1,0 +1,15 @@
+test_cli_errors (test_detect.DetectionTests.test_cli_errors) ... ok
+test_deduplication_and_bad_data (test_detect.DetectionTests.test_deduplication_and_bad_data) ... ok
+test_empty_and_no_success (test_detect.DetectionTests.test_empty_and_no_success) ... ok
+test_grouping (test_detect.DetectionTests.test_grouping) ... ok
+test_inclusive_window_boundary (test_detect.DetectionTests.test_inclusive_window_boundary) ... ok
+test_multiple_successes_not_suppressed (test_detect.DetectionTests.test_multiple_successes_not_suppressed) ... ok
+test_sample_cli (test_detect.DetectionTests.test_sample_cli) ... ok
+test_strictly_before_success (test_detect.DetectionTests.test_strictly_before_success) ... ok
+test_threshold (test_detect.DetectionTests.test_threshold) ... ok
+test_unsorted (test_detect.DetectionTests.test_unsorted) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.429s
+
+OK

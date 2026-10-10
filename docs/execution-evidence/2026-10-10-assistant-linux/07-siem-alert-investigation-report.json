@@ -1,0 +1,28 @@
+{
+  "synthetic": true,
+  "total_lines": 7,
+  "blank_lines": 0,
+  "invalid_lines": 0,
+  "duplicate_events": 0,
+  "unique_valid_events": 7,
+  "window_seconds": 300,
+  "minimum_failures": 3,
+  "alerts": [
+    {
+      "alert_id": "SYN-AUTH-001-L004",
+      "rule_id": "SYN-AUTH-001",
+      "severity": "medium",
+      "success_time": "2026-10-07T09:03:00Z",
+      "username": "demo_owl",
+      "source_ip": "192.0.2.10",
+      "failure_count": 3,
+      "failure_lines": [
+        1,
+        2,
+        3
+      ],
+      "success_line": 4,
+      "assessment": "Review required; compromise not established"
+    }
+  ]
+}

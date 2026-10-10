@@ -1,0 +1,15 @@
+{
+  "total_lines": 9,
+  "blank_lines": 0,
+  "invalid_lines": 2,
+  "valid_events": 7,
+  "successes": 3,
+  "failures": 4,
+  "failure_threshold": 3,
+  "flagged_sources": [
+    {
+      "source_ip": "192.0.2.10",
+      "failures": 3
+    }
+  ]
+}

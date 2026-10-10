@@ -1,0 +1,17 @@
+test_cli_threshold (test_auth_parser.ParserTests.test_cli_threshold) ... ok
+test_distinct_sources_and_users (test_auth_parser.ParserTests.test_distinct_sources_and_users) ... ok
+test_empty_and_blank_input (test_auth_parser.ParserTests.test_empty_and_blank_input) ... ok
+test_inclusive_threshold (test_auth_parser.ParserTests.test_inclusive_threshold) ... ok
+test_invalid_lines_do_not_count_as_events (test_auth_parser.ParserTests.test_invalid_lines_do_not_count_as_events) ... ok
+test_invalid_records (test_auth_parser.ParserTests.test_invalid_records) ... ok
+test_invalid_threshold (test_auth_parser.ParserTests.test_invalid_threshold) ... ok
+test_invalid_utf8 (test_auth_parser.ParserTests.test_invalid_utf8) ... ok
+test_missing_file (test_auth_parser.ParserTests.test_missing_file) ... ok
+test_sample_cli_matches_documented_output (test_auth_parser.ParserTests.test_sample_cli_matches_documented_output) ... ok
+test_success_does_not_reset_failures (test_auth_parser.ParserTests.test_success_does_not_reset_failures) ... ok
+test_valid_event (test_auth_parser.ParserTests.test_valid_event) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.808s
+
+OK
