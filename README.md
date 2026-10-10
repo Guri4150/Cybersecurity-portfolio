@@ -57,14 +57,24 @@ November 2025–May 2026.
 
 These roles developed my attention to detail, procedure adherence, discrepancy reporting, time management, and communication in multicultural teams. I bring those habits to security investigations and documentation.
 
-## Next development goals
+## Execution status and next milestones
 
-- Add sanitized evidence from repeatable home-lab exercises.
-- Run and explain the synthetic parser and alert-correlation projects locally.
-- Deploy an isolated SIEM lab, ingest fictional events, reproduce project 07's rule, and document the resulting alert with lab evidence.
-- Complete a vulnerability assessment in an isolated, authorized lab.
+- **Completed offline artifacts:** Projects 06–07 contain runnable Python,
+  fictional inputs, automated tests and example output. Project 07 is an
+  offline SIEM-style exercise, not a deployed SIEM. Project 08 is a fictional
+  tabletop assessment; its findings and validation remain simulated.
+- **Owner-local reproduction pending:** Run Projects 06–07 and publish dated,
+  sanitized test logs, generated reports, environment details and explanations.
+  Preparation-environment tests and committed examples do not establish that
+  I ran these projects locally.
+- **Hands-on lab evidence pending:** Deploy an isolated SIEM and reproduce
+  Project 07's rule with ingestion, query and alert evidence. Separately build
+  an owned isolated assessment lab, record observations, apply fixes and retest;
+  Project 08's planned scanning, remediation and validation are not completed.
 
-See the [evidence checklist](docs/evidence-checklist.md) for how projects will be strengthened.
+Follow the [local execution guide](docs/local-execution-guide.md) and
+[evidence checklist](docs/evidence-checklist.md). Update a milestone only after
+its dated evidence exists; this portfolio does not claim production SOC work.
 
 ## Scope and ethics
 
