@@ -85,7 +85,13 @@ Suggested interview description after reviewing and running it yourself:
 
 Do not describe this as operating a production SIEM or responding to a real
 breach. Execution evidence from project preparation is recorded separately in
-[validation.md](validation.md); your own local run has not been assumed.
+[validation.md](validation.md).
+
+On 15 October 2026, Gurdit Singh ran this project on his Mac with Python 3.9.6:
+**10 tests passed**, and the generated one-alert report matched the example.
+See the screenshot-reviewed [owner-local execution record](../../docs/execution-evidence/2026-10-15-owner-mac/README.md).
+A follow-up [comparison on Project 06's input](../../docs/execution-evidence/2026-10-15-owner-mac/detection-comparison.md)
+produced no alerts and illustrates why grouping by account and IP matters.
 
 ## Limitations and next lab
 
