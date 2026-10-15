@@ -71,10 +71,13 @@ This is separate from my own local execution and the pending lab milestones.
   fictional inputs, automated tests and example output. Project 07 is an
   offline SIEM-style exercise, not a deployed SIEM. Project 08 is a fictional
   tabletop assessment; its findings and validation remain simulated.
-- **Owner-local reproduction pending:** Run Projects 06–07 and publish dated,
-  sanitized test logs, generated reports, environment details and explanations.
-  Preparation-environment tests and committed examples do not establish that
-  I ran these projects locally.
+- **Owner-local runs completed — 15 October 2026:** On my Mac with Python
+  3.9.6, all 12 parser tests and 10 correlation tests passed. Generated reports
+  matched the committed examples with no differences displayed by `diff`.
+  See the [screenshot-reviewed execution record](docs/execution-evidence/2026-10-15-owner-mac/README.md)
+  for commands, revision, results and evidence limitations. Original screenshots
+  and generated report files are not included in that record; attaching reviewed
+  raw artifacts and adding my own interpretation remain evidence improvements.
 - **Hands-on lab evidence pending:** Deploy an isolated SIEM and reproduce
   Project 07's rule with ingestion, query and alert evidence. Separately build
   an owned isolated assessment lab, record observations, apply fixes and retest;
