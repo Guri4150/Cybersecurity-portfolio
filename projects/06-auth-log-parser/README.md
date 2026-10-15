@@ -29,6 +29,17 @@ No third-party dependencies or installation step are needed. Tested with
 Python 3.12.14 on Linux on October 6, 2026 in the project preparation environment.
 This is an observed test run, not a claim that the portfolio owner ran it locally.
 
+## Owner-local verification
+
+On 15 October 2026, Gurdit Singh ran this project on his Mac with Python 3.9.6:
+**12 tests passed**, and the generated report matched the committed example.
+The [execution record](../../docs/execution-evidence/2026-10-15-owner-mac/README.md)
+is based on reviewed Terminal screenshots and explains evidence limitations.
+
+The subsequent [detection comparison](../../docs/execution-evidence/2026-10-15-owner-mac/detection-comparison.md)
+records threshold tuning, account-versus-IP grouping and literal-text log filtering
+performed during guided practice.
+
 ## Input format
 
 UTF-8 JSON Lines: one JSON object per line, with exactly four string fields:
@@ -151,20 +162,8 @@ Before committing anything, inspect the input, generated reports, screenshots,
 and staged Git changes. This project needs no real data, elevated permissions,
 network access, scanning, or login attempts.
 
-## Suggested portfolio README edits
+## Continue the investigation
 
-Add this row to the root README's featured-projects table:
-
-```markdown
-| [Python authentication-log parser](projects/06-auth-log-parser/README.md) | Validating synthetic logs, summarizing outcomes, and testing a CLI | Python, JSONL, unittest |
-```
-
-Keep the existing Python skills description modest. After reviewing and running
-the project yourself, replace the original parser development goal with:
-
-```markdown
-- Extend the synthetic authentication-log parser with a tested time-window rule.
-```
-
-The existing five write-ups and ethics note can remain. These edits are supplied
-for review; no changes have been pushed to GitHub.
+[Project 07](../07-siem-alert-investigation/README.md) adds username-and-IP
+correlation within a time window. Compare both rules on the same fictional input
+using the linked detection comparison above.
