@@ -65,6 +65,13 @@ The displayed report contained:
 
 The comparison returned to the prompt without differences or an error displayed. Its numeric exit status was not separately recorded.
 
+## Follow-up experiments
+
+The owner also ran a threshold-4 parser comparison, applied the correlation
+rule to Project 06's sample, inspected numbered source records and filtered
+failures using literal-text grep. The [detection comparison](detection-comparison.md)
+records the commands, observed results and interpretation from that guided practice.
+
 ## Interpretation reviewed during guided practice
 
 Repeated failures can reflect password mistakes or software using stale credentials. A later success adds investigation context but does not establish malicious intent. Review account, timing and related activity before classifying an incident.
