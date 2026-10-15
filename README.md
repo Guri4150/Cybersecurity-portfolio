@@ -15,6 +15,8 @@ Projects 06 and 07 include runnable Python, fictional input, automated tests, an
 
 Project 08 is a fictional vulnerability-assessment tabletop case study. Its lab design, evidence and findings are invented; scanning, remediation and validation have not been performed.
 
+Project 09 is a fictional DNS anomaly triage case study. Packet-filter results are reasoned from a synthetic table; no capture, Wireshark execution or deployed detection is claimed.
+
 | Project | What it demonstrates | Tools / concepts |
 |---|---|---|
 | [Linux permissions and access control](projects/01-linux-permissions.md) | Reviewing access and applying least privilege | Bash, ls, chmod |
@@ -25,6 +27,7 @@ Project 08 is a fictional vulnerability-assessment tabletop case study. Its lab 
 | [Python authentication-log parser](projects/06-auth-log-parser/README.md) | Validating fictional logs and summarizing authentication outcomes | Python, JSONL, unittest |
 | [Synthetic SIEM-style alert investigation](projects/07-siem-alert-investigation/README.md) | Time-window correlation, alert triage, severity and response reasoning | Python, detection logic, SOC documentation |
 | [Fictional vulnerability assessment](projects/08-vulnerability-assessment-lab/README.md) | Lab scope, asset inventory, sample findings, prioritization and remediation planning | CVSS v3.1-style scoring, least privilege, validation criteria |
+| [DNS anomaly triage](projects/09-dns-anomaly-triage.md) | Separating evidence from hypotheses, filtering TXT queries, tuning detection and documenting next checks | DNS, Wireshark display filters, SIEM concepts, incident triage |
 
 ## Skills and current depth
 
