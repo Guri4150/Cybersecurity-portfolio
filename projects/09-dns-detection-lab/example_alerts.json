@@ -1,0 +1,35 @@
+{
+  "alerts": [
+    {
+      "assessment": "Suspicious burst; DNS tunneling and exfiltration unconfirmed",
+      "client_ip": "10.20.5.7",
+      "distinct_query_names": 450,
+      "domain": "sync.example",
+      "rule_id": "SYN-DNS-TXT-BURST-001",
+      "sample_event_ids": [
+        "W07-TXT-0000",
+        "W07-TXT-0300",
+        "W07-TXT-0001"
+      ],
+      "severity": "Medium",
+      "txt_query_count": 450,
+      "window_end_utc_exclusive": "2026-10-15T08:35:00Z",
+      "window_start_utc": "2026-10-15T08:30:00Z"
+    }
+  ],
+  "counters": {
+    "duplicate_event_ids": 1,
+    "eligible_txt_queries": 595,
+    "invalid_lines": 0,
+    "responses_skipped": 2,
+    "total_lines": 628,
+    "unique_events": 627
+  },
+  "rule": {
+    "domain": "sync.example",
+    "id": "SYN-DNS-TXT-BURST-001",
+    "minimum_distinct_names_inclusive": 80,
+    "minimum_txt_queries_inclusive": 100,
+    "window_seconds": 300
+  }
+}
