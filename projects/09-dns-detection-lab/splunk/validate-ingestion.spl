@@ -1,0 +1,4 @@
+index="main" sourcetype="p09:dns:json" host="p09-synthetic-lab" source="synthetic_dns.jsonl"
+| eval parsed_time=strptime(timestamp,"%Y-%m-%dT%H:%M:%SZ")
+| stats count AS records dc(event_id) AS unique_event_ids count(eval(isnull(parsed_time) OR _time!=parsed_time)) AS timestamp_mismatches count(eval(mvcount(event_id)!=1)) AS multivalue_ids
+| eval duplicate_records=records-unique_event_ids

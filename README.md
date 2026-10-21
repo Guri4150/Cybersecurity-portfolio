@@ -15,7 +15,7 @@ Projects 06 and 07 include runnable Python, fictional input, automated tests, an
 
 Project 08 is a fictional vulnerability-assessment tabletop case study. Its lab design, evidence and findings are invented; scanning, remediation and validation have not been performed.
 
-Project 09 is a fictional DNS anomaly triage case study. Packet-filter results are reasoned from a synthetic table; no capture, Wireshark execution or deployed detection is claimed.
+Project 09 combines a fictional DNS triage tabletop, Mac-tested Python detection, and an assisted Splunk Cloud trial lab. Synthetic ingestion, native search results and scheduled historical alert firing were observed; the replay alert was disabled after testing. The [dated evidence summary](projects/09-dns-detection-lab/splunk/evidence-2026-10-21.md) distinguishes observations from retained raw evidence. No live capture, Wireshark execution or production detection is claimed.
 
 | Project | What it demonstrates | Tools / concepts |
 |---|---|---|
@@ -27,7 +27,7 @@ Project 09 is a fictional DNS anomaly triage case study. Packet-filter results a
 | [Python authentication-log parser](projects/06-auth-log-parser/README.md) | Validating fictional logs and summarizing authentication outcomes | Python, JSONL, unittest |
 | [Synthetic SIEM-style alert investigation](projects/07-siem-alert-investigation/README.md) | Time-window correlation, alert triage, severity and response reasoning | Python, detection logic, SOC documentation |
 | [Fictional vulnerability assessment](projects/08-vulnerability-assessment-lab/README.md) | Lab scope, asset inventory, sample findings, prioritization and remediation planning | CVSS v3.1-style scoring, least privilege, validation criteria |
-| [DNS anomaly triage](projects/09-dns-anomaly-triage.md) | Separating evidence from hypotheses, filtering TXT queries, tuning detection and documenting next checks | DNS, Wireshark display filters, SIEM concepts, incident triage |
+| [DNS detection lab and triage](projects/09-dns-detection-lab/README.md) | Mac-tested Python; assisted Splunk ingestion, SPL validation, negative controls and scheduled historical alert testing | DNS, Python, Splunk Cloud, SPL, evidence handling |
 
 ## Skills and current depth
 
@@ -41,7 +41,7 @@ Project 09 is a fictional DNS anomaly triage case study. Packet-filter results a
 | Cryptography | SHA-256 comparisons and introductory OpenSSL exercises |
 | Python | Fundamentals; continuing to build scripting skills |
 
-My SIEM and vulnerability-management knowledge is currently based on training. I am developing hands-on experience and do not claim production SOC experience.
+My SIEM practice includes an assisted Splunk Cloud lab using synthetic DNS data. Vulnerability-management work remains training and tabletop planning. I do not claim production SOC experience.
 
 ## Education and certification
 
@@ -78,7 +78,12 @@ This is separate from my own local execution and the pending lab milestones.
   for commands, revision, results and evidence limitations. Original screenshots
   and generated report files are not included in that record; attaching reviewed
   raw artifacts and adding my own interpretation remain evidence improvements.
-- **Hands-on lab evidence pending:** Deploy an isolated SIEM and reproduce
+- **Project 09 Splunk Cloud trial lab completed — 21 October 2026 UTC:**
+  verified 628 records / 627 unique IDs, one 450-query / 450-name match and
+  two excluded control clients. Scheduled historical triggers were observed;
+  the alert is disabled. See the [lab guide](projects/09-dns-detection-lab/splunk/README.md)
+  for reusable searches, assistance disclosure and evidence limits.
+- **Other hands-on lab evidence pending:** Deploy an isolated SIEM and reproduce
   Project 07's rule with ingestion, query and alert evidence. Separately build
   an owned isolated assessment lab, record observations, apply fixes and retest;
   Project 08's planned scanning, remediation and validation are not completed.

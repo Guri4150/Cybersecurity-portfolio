@@ -1,0 +1,8 @@
+index="main" sourcetype="p09:dns:json" host="p09-synthetic-lab" source="synthetic_dns.jsonl"
+| dedup event_id
+| eval query_name=lower(rtrim(query_name,".")), query_type=upper(query_type), message=lower(message)
+| where message="query" AND query_type="TXT" AND (query_name="sync.example" OR like(query_name,"%.sync.example"))
+| bin _time span=5m
+| stats count AS txt_query_count dc(query_name) AS distinct_query_names BY _time client_ip
+| eval rule_match=if(txt_query_count>=100 AND distinct_query_names>=80,"MATCH","NO MATCH")
+| sort client_ip
