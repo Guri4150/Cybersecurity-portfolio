@@ -1,6 +1,6 @@
 # Project 09 — Offline DNS detection lab (synthetic)
 
-**Status:** Runnable detection code and tests prepared; owner-local Mac execution and any live SIEM deployment must be evidenced separately. This extends the [original Project 09 DNS triage tabletop](../09-dns-anomaly-triage.md) without replacing its reasoning.
+**Status:** Owner-local Mac execution is documented in the [2026-10-21 screenshot-reviewed execution record](mac-execution-2026-10-21.md), including evidence provenance and limits. Raw artifacts remain on the owner's Mac and are not published here. Live SIEM deployment remains incomplete. This extends the [original Project 09 DNS triage tabletop](../09-dns-anomaly-triage.md) without replacing its reasoning.
 
 ## Objective and scope
 
