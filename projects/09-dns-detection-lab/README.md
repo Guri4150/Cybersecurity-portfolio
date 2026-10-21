@@ -1,10 +1,10 @@
-# Project 09 — Offline DNS detection lab (synthetic)
+# Project 09 — Synthetic DNS detection: Python and Splunk Cloud
 
-**Status:** Owner-local Mac execution is documented in the [2026-10-21 screenshot-reviewed execution record](mac-execution-2026-10-21.md), including evidence provenance and limits. Raw artifacts remain on the owner's Mac and are not published here. Live SIEM deployment remains incomplete. This extends the [original Project 09 DNS triage tabletop](../09-dns-anomaly-triage.md) without replacing its reasoning.
+**Status:** Owner-local Mac execution is documented in the [2026-10-21 screenshot-reviewed execution record](mac-execution-2026-10-21.md), including evidence provenance and limits. Raw artifacts remain on the owner's Mac and are not published here. The [Splunk Cloud trial lab](splunk/README.md) now has observed ingestion, native search validation and scheduled historical alert firing; the replay alert was disabled after testing. This extends the [original Project 09 DNS triage tabletop](../09-dns-anomaly-triage.md) without replacing its reasoning.
 
 ## Objective and scope
 
-Use a deterministic fictional DNS JSONL stream to generate and investigate a suspicious TXT-query burst. Every event, address and name is fabricated. `sync.example` and `portal.example` use the reserved `.example` namespace. Python processes files locally; this lab **does not** send DNS queries, capture packets, monitor the Mac, connect to a SIEM, or prove tunneling/exfiltration.
+Use a deterministic fictional DNS JSONL stream to generate and investigate a suspicious TXT-query burst. Every event, address and name is fabricated. `sync.example` and `portal.example` use the reserved `.example` namespace. The Python programs process files locally and **do not** send DNS queries, capture packets, monitor the Mac, connect to a SIEM, or prove tunneling/exfiltration.
 
 The fictional `ws-07` (`10.20.5.7`) has **480 queries** in `[2026-10-15 08:30, 08:35) UTC`: 450 distinct TXT questions for `*.sync.example` and 30 A questions for `portal.example`. Synthetic DNS responses, duplicate telemetry and two other clients are included as controls. Names such as `q0001` are *not* evidence of high entropy.
 
@@ -18,7 +18,7 @@ The fictional `ws-07` (`10.20.5.7`) has **480 queries** in `[2026-10-15 08:30, 0
 
 ## Run on your Mac (Python 3.9+; no external packages)
 
-Open Terminal in the repository root. On the `project-09-dns-detection-lab` branch:
+Open Terminal in the repository root. Use `main` after PR #1, or the recorded source revision when reproducing that exact run:
 
 ```bash
 python3 --version
@@ -76,4 +76,4 @@ Do not upload actual system/network logs or identifiers. Only publish evidence a
 
 After running the code yourself, save the executed Git commit, UTC run date, Python version, full test log, generated alerts, and a short analyst note distinguishing the suspicious signal from unsupported exfiltration claims. Use `analyst_handoff_template.md`. The generated fixture and report are fictional; the **execution transcript on your Mac** is the actual hands-on evidence.
 
-**Next milestone:** independently ingest this fixture into a genuine isolated SIEM, translate the rule to its native query, and capture ingestion/rule/alert evidence. That milestone is **not yet completed**.
+**Splunk lab milestone completed — 2026-10-21 UTC:** the owner uploaded the fictional fixture to a Splunk Cloud trial; the assistant configured parsing and ran native validation/searches through the owner's browser, then verified scheduled historical alert triggers. See the [evidence summary](splunk/evidence-2026-10-21.md) and [reproduction guide](splunk/README.md). This is assisted lab work, not independent production SIEM deployment. Next evidence improvement: retain redacted exports of scheduled-job results before cleanup.
