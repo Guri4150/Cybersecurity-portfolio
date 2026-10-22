@@ -1,0 +1,14 @@
+index=main sourcetype="p07:auth:json" host="p07-synthetic-lab" source="synthetic_auth.jsonl"
+| spath
+| eval event_epoch=strptime(replace(timestamp,"Z$","+0000"),"%Y-%m-%dT%H:%M:%S%z")
+| where isnotnull(event_epoch) AND (status="failure" OR status="success")
+| dedup timestamp username source_ip status
+| eventstats values(eval(if(status="failure",event_epoch,null()))) AS failure_times BY username source_ip
+| where status="success"
+| mvexpand failure_times
+| where failure_times>=event_epoch-300 AND failure_times<event_epoch
+| stats count AS failure_count BY timestamp username source_ip
+| where failure_count>=3
+| rename timestamp AS success_time
+| eval rule_id="SYN-AUTH-001", severity="medium", assessment="Review required; compromise not established"
+| table rule_id severity success_time username source_ip failure_count assessment

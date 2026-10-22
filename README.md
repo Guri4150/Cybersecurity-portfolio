@@ -92,6 +92,11 @@ Follow the [local execution guide](docs/local-execution-guide.md) and
 [evidence checklist](docs/evidence-checklist.md). Update a milestone only after
 its dated evidence exists; this portfolio does not claim production SOC work.
 
+## New follow-up work — 22 October 2026
+
+- **Project 07:** [Splunk search and ingestion guide prepared](projects/07-siem-alert-investigation/splunk/README.md); not yet run in Splunk. The existing ten Python tests passed again in the assistant's Linux environment. This does not complete Project 07's SIEM milestone.
+- **Project 08:** [Controlled backup-exposure micro-lab](projects/08-vulnerability-assessment-lab/hands-on/README.md) executed in the assistant's Linux environment. Eight real loopback HTTP checks confirmed baseline exposure, route removal and retained health access. Generated evidence is included. Owner-Mac execution remains pending; the original four fictional assessment findings remain simulated.
+
 ## Scope and ethics
 
 All exercises are intended for owned or explicitly authorized lab systems. Public artifacts should contain only synthetic or sanitized data. No customer data, credentials, or confidential employer information belongs in this repository.

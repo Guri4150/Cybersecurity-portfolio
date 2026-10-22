@@ -1,0 +1,5 @@
+index=main sourcetype="p07:auth:json" host="p07-synthetic-lab" source="synthetic_auth.jsonl"
+| spath
+| eval parsed_epoch=strptime(replace(timestamp,"Z$","+0000"),"%Y-%m-%dT%H:%M:%S%z")
+| eval bad_time=if(isnull(parsed_epoch) OR abs(_time-parsed_epoch)>0.001,1,0)
+| stats count AS records sum(bad_time) AS timestamp_mismatches count(eval(status="failure")) AS failures count(eval(status="success")) AS successes dc(username) AS usernames

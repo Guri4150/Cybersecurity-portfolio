@@ -105,3 +105,7 @@ unresolved instead of inventing user interviews or endpoint findings.
 Next: ingest only this fictional dataset into an isolated SIEM lab, implement
 the same rule, compare results, and capture your own sanitized screenshots.
 That deployment remains future work.
+
+## Prepared Splunk follow-up — 22 October 2026
+
+A [Splunk reproduction guide and candidate searches](splunk/README.md) are now available. They have not been executed in Splunk. [Preparation verification](splunk/preparation-2026-10-22.md) records the separate assistant-Linux Python rerun; it does not complete the live SIEM milestone.
