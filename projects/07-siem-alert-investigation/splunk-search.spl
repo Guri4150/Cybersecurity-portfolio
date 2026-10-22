@@ -1,0 +1,10 @@
+index="main" source="synthetic_auth.jsonl" host="project07-fictional-lab" sourcetype="_json" earliest=0
+| dedup timestamp username source_ip status
+| eval event_epoch=strptime(timestamp,"%Y-%m-%dT%H:%M:%SZ")
+| eventstats values(eval(if(status="failure",event_epoch,null()))) AS failure_times BY username source_ip
+| where status="success"
+| eval matching_failures=mvmap(failure_times,if(failure_times>=event_epoch-300 AND failure_times<event_epoch,failure_times,null()))
+| eval failure_count=coalesce(mvcount(matching_failures),0)
+| where failure_count>=3
+| eval severity="medium", assessment="Review required; compromise unconfirmed"
+| table timestamp username source_ip failure_count severity assessment

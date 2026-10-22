@@ -24,3 +24,10 @@ The dependency was fetched from the current project 06 file and used unchanged.
 Only the new project's tests were run; this is not a new validation claim for
 the earlier project's complete suite. No SIEM product, live collector, account
 action, scan, or network investigation was tested.
+
+## Splunk Cloud follow-up — 22 October 2026
+
+A separate assistant-guided run ingested seven fictional events, reproduced the
+one-match result, verified zero matches at threshold 4, and restored threshold 3.
+A manual report was saved. See the [dated record and screenshot](../../docs/execution-evidence/2026-10-22-splunk-cloud/README.md).
+This does not imply that the Python boundary suite was executed as SPL tests.

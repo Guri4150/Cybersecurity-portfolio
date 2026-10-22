@@ -1,8 +1,9 @@
 # Synthetic SIEM-style alert investigation
 
-An offline SOC learning project using entirely fictional authentication events.
-It extends project 06 with event-time correlation, reproducible alert output,
-and an evidence-based investigation. It does not deploy a SIEM, ingest live
+A SOC learning project using entirely fictional authentication events.
+It extends project 06 with offline Python correlation and an assistant-guided
+Splunk Cloud lab run on 22 October 2026. The lab ingested seven fictional
+events and reproduced the expected single match. It does not ingest live
 telemetry, establish a real incident, or demonstrate production SOC experience.
 
 ## Scenario and result
@@ -93,15 +94,52 @@ See the screenshot-reviewed [owner-local execution record](../../docs/execution-
 A follow-up [comparison on Project 06's input](../../docs/execution-evidence/2026-10-15-owner-mac/detection-comparison.md)
 produced no alerts and illustrates why grouping by account and IP matters.
 
+## Splunk Cloud lab — 22 October 2026
+
+During an assistant-guided session using Safari on my Mac, the assistant
+uploaded the fictional dataset to my Splunk Cloud trial and ran the searches.
+I captured the screenshot below. The execution record distinguishes assistant
+operation from my independent execution.
+
+| Check | Observed result |
+|---|---|
+| JSON ingestion | 7 events; source type `_json`, index `main` |
+| Threshold 3 | 1 match: `demo_owl`, `192.0.2.10`, 09:03 UTC, 3 failures |
+| Threshold 4 | 0 results |
+| Restore threshold 3 | Original single match returned |
+| Saved report | Project 07 - Synthetic Authentication Correlation |
+
+The Splunk result matched the Python detector on this fixture. The report is
+for manual use; no scheduled alert or notification was configured.
+
+![Splunk search and one matching fictional authentication result](../../docs/execution-evidence/2026-10-22-splunk-cloud/splunk-threshold-3.png)
+
+Read the [execution record](../../docs/execution-evidence/2026-10-22-splunk-cloud/README.md)
+and use the [executed SPL](splunk-search.spl) to repeat the search with All time
+selected. Upload the dataset only once; repeated uploads create duplicate raw
+events even though this query deduplicates matching field tuples.
+
+### Interpreting the result
+
+- `demo_owl` meets the rule: three failures followed by success within five minutes.
+- `demo_fox` has only one preceding failure and does not meet the threshold.
+- `demo_badger` has no preceding failures and does not meet the threshold.
+- A matching sequence warrants review; it does not prove compromise.
+
+These explanations were developed during guided practice. The original Python
+tests cover boundary conditions; this SPL has only been checked on the supplied
+fixture and the threshold-4 variation.
+
 ## Limitations and next lab
 
-This is a small batch correlation exercise, not a SIEM installation.
+This is a small batch correlation exercise with a manual Splunk Cloud lab run.
 The input schema has no host, application, session, event ID, device, MFA, or
 endpoint fields. It assumes one authentication service and one UTC clock.
 See detection.md for deduplication, false positives, false negatives, and
 performance limits. The simulated investigation deliberately leaves uncertainty
 unresolved instead of inventing user interviews or endpoint findings.
 
-Next: ingest only this fictional dataset into an isolated SIEM lab, implement
-the same rule, compare results, and capture your own sanitized screenshots.
-That deployment remains future work.
+Next: validate the SPL against additional boundary fixtures and document an
+independent rerun. Scheduled alerting and production deployment remain outside
+the completed scope. See the execution record for timestamp parsing, schema
+validation, and search-memory limitations of this small lab query.

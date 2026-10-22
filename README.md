@@ -11,7 +11,7 @@ I enjoy investigating security problems, documenting findings clearly, and conne
 
 Projects 01–05 reconstruct training exercises and document example investigation methods. They are educational work, not production security engagements. Original screenshots, packet captures, and lab transcripts are not included; examples and expected results are labeled accordingly.
 
-Projects 06 and 07 include runnable Python, fictional input, automated tests, and example output. Project 07 is an offline SIEM-style correlation exercise; an actual SIEM deployment remains a future development goal. These projects do not claim production security experience.
+Projects 06 and 07 include runnable Python, fictional input, automated tests, and example output. Project 07 also includes an assistant-guided Splunk Cloud run on seven fictional events, a threshold check, a saved report, and screenshot evidence. These projects do not claim production security experience.
 
 Project 08 is a fictional vulnerability-assessment tabletop case study. Its lab design, evidence and findings are invented; scanning, remediation and validation have not been performed.
 
@@ -25,7 +25,7 @@ Project 09 combines a fictional DNS triage tabletop, Mac-tested Python detection
 | [File integrity verification](projects/04-file-integrity.md) | Comparing files using cryptographic hashes | Linux, SHA-256 |
 | [SOC incident triage case study](projects/05-incident-triage.md) | Evaluating alerts, preserving evidence, and documenting decisions | Incident response, risk, escalation |
 | [Python authentication-log parser](projects/06-auth-log-parser/README.md) | Validating fictional logs and summarizing authentication outcomes | Python, JSONL, unittest |
-| [Synthetic SIEM-style alert investigation](projects/07-siem-alert-investigation/README.md) | Time-window correlation, alert triage, severity and response reasoning | Python, detection logic, SOC documentation |
+| [Synthetic SIEM-style alert investigation](projects/07-siem-alert-investigation/README.md) | Time-window correlation, alert triage, severity and response reasoning | Python, Splunk Cloud, SPL, SOC documentation |
 | [Fictional vulnerability assessment](projects/08-vulnerability-assessment-lab/README.md) | Lab scope, asset inventory, sample findings, prioritization and remediation planning | CVSS v3.1-style scoring, least privilege, validation criteria |
 | [DNS detection lab and triage](projects/09-dns-detection-lab/README.md) | Mac-tested Python; assisted Splunk ingestion, SPL validation, negative controls and scheduled historical alert testing | DNS, Python, Splunk Cloud, SPL, evidence handling |
 
@@ -41,7 +41,7 @@ Project 09 combines a fictional DNS triage tabletop, Mac-tested Python detection
 | Cryptography | SHA-256 comparisons and introductory OpenSSL exercises |
 | Python | Fundamentals; continuing to build scripting skills |
 
-My SIEM practice includes an assisted Splunk Cloud lab using synthetic DNS data. Vulnerability-management work remains training and tabletop planning. I do not claim production SOC experience.
+My SIEM practice includes assistant-guided Splunk Cloud labs using synthetic authentication and DNS data. Vulnerability-management work remains training and tabletop planning. I do not claim production SOC experience.
 
 ## Education and certification
 
@@ -68,8 +68,8 @@ preparation environment; generated JSON matched both committed examples.
 This is separate from my own local execution and the pending lab milestones.
 
 - **Completed offline artifacts:** Projects 06–07 contain runnable Python,
-  fictional inputs, automated tests and example output. Project 07 is an
-  offline SIEM-style exercise, not a deployed SIEM. Project 08 is a fictional
+  fictional inputs, automated tests and example output. Project 07 also has a
+  separately recorded manual Splunk Cloud lab run. Project 08 is a fictional
   tabletop assessment; its findings and validation remain simulated.
 - **Owner-local runs completed — 15 October 2026:** On my Mac with Python
   3.9.6, all 12 parser tests and 10 correlation tests passed. Generated reports
@@ -83,8 +83,12 @@ This is separate from my own local execution and the pending lab milestones.
   two excluded control clients. Scheduled historical triggers were observed;
   the alert is disabled. See the [lab guide](projects/09-dns-detection-lab/splunk/README.md)
   for reusable searches, assistance disclosure and evidence limits.
-- **Other hands-on lab evidence pending:** Deploy an isolated SIEM and reproduce
-  Project 07's rule with ingestion, query and alert evidence. Separately build
+- **Splunk Cloud lab completed — 22 October 2026:** An assistant-guided run
+  ingested seven fictional Project 07 events. Threshold 3 returned one match;
+  threshold 4 returned none; restoring 3 returned the original match. A report
+  was saved, with no scheduled alert configured. See the [execution record and
+  screenshot](docs/execution-evidence/2026-10-22-splunk-cloud/README.md).
+- **Further lab work:** Validate more SPL boundary cases. Separately build
   an owned isolated assessment lab, record observations, apply fixes and retest;
   Project 08's planned scanning, remediation and validation are not completed.
 
