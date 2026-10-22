@@ -13,7 +13,7 @@ Projects 01–05 reconstruct training exercises and document example investigati
 
 Projects 06 and 07 include runnable Python, fictional input, automated tests, and example output. Project 07 also includes an assistant-guided Splunk Cloud run on seven fictional events, a threshold check, a saved report, and screenshot evidence. These projects do not claim production security experience.
 
-Project 08 is a fictional vulnerability-assessment tabletop case study. Its lab design, evidence and findings are invented; scanning, remediation and validation have not been performed.
+Project 08 retains its fictional vulnerability-assessment tabletop and adds a separate loopback backup-exposure lab. An assistant-operated Mac run passed eight before/after HTTP checks; the original four simulated findings remain open.
 
 Project 09 combines a fictional DNS triage tabletop, Mac-tested Python detection, and an assisted Splunk Cloud trial lab. Synthetic ingestion, native search results and scheduled historical alert firing were observed; the replay alert was disabled after testing. The [dated evidence summary](projects/09-dns-detection-lab/splunk/evidence-2026-10-21.md) distinguishes observations from retained raw evidence. No live capture, Wireshark execution or production detection is claimed.
 
@@ -41,7 +41,7 @@ Project 09 combines a fictional DNS triage tabletop, Mac-tested Python detection
 | Cryptography | SHA-256 comparisons and introductory OpenSSL exercises |
 | Python | Fundamentals; continuing to build scripting skills |
 
-My SIEM practice includes assistant-guided Splunk Cloud labs using synthetic authentication and DNS data. Vulnerability-management work remains training and tabletop planning. I do not claim production SOC experience.
+My SIEM practice includes assistant-guided Splunk Cloud labs using synthetic authentication and DNS data. Vulnerability-management practice also includes an assistant-operated local backup-route remediation lab. I do not claim production SOC experience.
 
 ## Education and certification
 
@@ -69,8 +69,8 @@ This is separate from my own local execution and the pending lab milestones.
 
 - **Completed offline artifacts:** Projects 06–07 contain runnable Python,
   fictional inputs, automated tests and example output. Project 07 also has a
-  separately recorded manual Splunk Cloud lab run. Project 08 is a fictional
-  tabletop assessment; its findings and validation remain simulated.
+  separately recorded manual Splunk Cloud lab run. Project 08 retains a fictional
+  tabletop assessment and adds the separately scoped executed micro-lab below.
 - **Owner-local runs completed — 15 October 2026:** On my Mac with Python
   3.9.6, all 12 parser tests and 10 correlation tests passed. Generated reports
   matched the committed examples with no differences displayed by `diff`.
@@ -88,9 +88,12 @@ This is separate from my own local execution and the pending lab milestones.
   threshold 4 returned none; restoring 3 returned the original match. A report
   was saved, with no scheduled alert configured. See the [execution record and
   screenshot](docs/execution-evidence/2026-10-22-splunk-cloud/README.md).
-- **Further lab work:** Validate more SPL boundary cases. Separately build
-  an owned isolated assessment lab, record observations, apply fixes and retest;
-  Project 08's planned scanning, remediation and validation are not completed.
+- **Project 08 micro-lab completed — 22 October 2026:** An assistant-operated
+  Mac run passed eight checks before and after disabling a fictional backup
+  route. See the [Mac execution evidence](projects/08-vulnerability-assessment-lab/hands-on/mac-execution-2026-10-22.md).
+  The original four tabletop findings remain simulated and open.
+- **Further lab work:** Validate more SPL boundary cases and independently
+  repeat the micro-lab. The broader multi-asset assessment remains pending.
 
 Follow the [local execution guide](docs/local-execution-guide.md) and
 [evidence checklist](docs/evidence-checklist.md). Update a milestone only after
