@@ -1,0 +1,5 @@
+timestamp,username,"source_ip","failure_count"
+"2026-10-07T09:05:00Z","edge_300","192.0.2.11",3
+"2026-10-07T09:04:00Z","out_order","192.0.2.18",3
+"2026-10-07T09:03:00Z","two_successes","192.0.2.19",3
+"2026-10-07T09:04:00Z","two_successes","192.0.2.19",3

@@ -1,0 +1,92 @@
+Sanitized accessibility snapshot: browser chrome omitted; trial hostname and local paths replaced. Result values and search IDs preserved.
+
+				4 HTML content Description: Search | Splunk 10.6.1.0, URL: …
+					5 link Click here to skip the navigation bar, Value: [trial-host]/en-US/app/search/search?sid=1792776605.13037&dispatch.sample_ratio=1&display.page.search.mode=smart&workload_pool=&q=%7C%20makeresults%0A%7C%20eval%20timestamp%3D%222026-10-07T09%3A00%3A00Z%22%0A%7C%20eval%20candidate_epoch%3Dstrptime(timestamp%2C%22%25Y-%25m-%25dT%25H%3A%25M%3A%25SZ%22)%2C%20utc_epoch%3Dstrptime(replace(timestamp%2C%22Z%24%22%2C%22%2B0000%22)%2C%22%25Y-%25m-%25dT%25H%3A%25M%3A%25S%25z%22)%0A%7C%20eval%20expected_epoch%3D1791363600%0A%7C%20eval%20candidate_delta%3Dcandidate_epoch-expected_epoch%2C%20utc_delta%3Dutc_epoch-expected_epoch%0A%7C%20table%20timestamp%20candidate_epoch%20utc_epoch%20expected_epoch%20candidate_delta%20utc_delta&earliest=0&latest=&display.general.type=statistics#navSkip
+					6 container
+						7 link Skip to main content, Value: [trial-host]/en-US/app/search/search?sid=1792776605.13037&dispatch.sample_ratio=1&display.page.search.mode=smart&workload_pool=&q=%7C%20makeresults%0A%7C%20eval%20timestamp%3D%222026-10-07T09%3A00%3A00Z%22%0A%7C%20eval%20candidate_epoch%3Dstrptime(timestamp%2C%22%25Y-%25m-%25dT%25H%3A%25M%3A%25SZ%22)%2C%20utc_epoch%3Dstrptime(replace(timestamp%2C%22Z%24%22%2C%22%2B0000%22)%2C%22%25Y-%25m-%25dT%25H%3A%25M%3A%25S%25z%22)%0A%7C%20eval%20expected_epoch%3D1791363600%0A%7C%20eval%20candidate_delta%3Dcandidate_epoch-expected_epoch%2C%20utc_delta%3Dutc_epoch-expected_epoch%0A%7C%20table%20timestamp%20candidate_epoch%20utc_epoch%20expected_epoch%20candidate_delta%20utc_delta&earliest=0&latest=&display.general.type=statistics#main
+						8 link Splunk, Value: [trial-host]/en-US/app/launcher
+						9 button Health of Splunk Deployment
+						10 button Find
+						11 pop up button Activity
+						12 pop up button Settings
+						13 pop up button Notifications1 messages
+						14 pop up button Help
+						15 pop up button User Profile
+						16 pop up button Apps
+					17 container
+						18 container Side navigation panel
+							19 heading Side navigation panel, Value: 2
+								20 text Side navigation panel
+							21 switch (settable, boolean) Menu shrink, Value: on
+							22 link Search & Reporting logo, Value: [trial-host]/en-US/app/search
+							23 container
+								24 Search
+								25 Datasets
+								26 Reports
+								27 Alerts
+								28 Dashboards
+								29 Modules
+						30 heading New Search, Value: 1
+							31 text New Search
+						32 link Save As, Value: [trial-host]/en-US/app/search/search?sid=1792776605.13037&dispatch.sample_ratio=1&display.page.search.mode=smart&workload_pool=&q=%7C%20makeresults%0A%7C%20eval%20timestamp%3D%222026-10-07T09%3A00%3A00Z%22%0A%7C%20eval%20candidate_epoch%3Dstrptime(timestamp%2C%22%25Y-%25m-%25dT%25H%3A%25M%3A%25SZ%22)%2C%20utc_epoch%3Dstrptime(replace(timestamp%2C%22Z%24%22%2C%22%2B0000%22)%2C%22%25Y-%25m-%25dT%25H%3A%25M%3A%25S%25z%22)%0A%7C%20eval%20expected_epoch%3D1791363600%0A%7C%20eval%20candidate_delta%3Dcandidate_epoch-expected_epoch%2C%20utc_delta%3Dutc_epoch-expected_epoch%0A%7C%20table%20timestamp%20candidate_epoch%20utc_epoch%20expected_epoch%20candidate_delta%20utc_delta&earliest=0&latest=&display.general.type=statistics#
+						33 link Create Table View, Value: [trial-host]/en-US/app/search/table?bs=%7C%20makeresults%0A%7C%20eval%20timestamp%3D%222026-10-07T09%3A00%3A00Z%22%0A%7C%20eval%20candidate_epoch%3Dstrptime(timestamp%2C%22%25Y-%25m-%25dT%25H%3A%25M%3A%25SZ%22)%2C%20utc_epoch%3Dstrptime(replace(timestamp%2C%22Z%24%22%2C%22%2B0000%22)%2C%22%25Y-%25m-%25dT%25H%3A%25M%3A%25S%25z%22)%0A%7C%20eval%20expected_epoch%3D1791363600%0A%7C%20eval%20candidate_delta%3Dcandidate_epoch-expected_epoch%2C%20utc_delta%3Dutc_epoch-expected_epoch%0A%7C%20table%20timestamp%20candidate_epoch%20utc_epoch%20expected_epoch%20candidate_delta%20utc_delta&dataset.search.fields=
+						34 link Close, Value: [trial-host]/en-US/app/search/search?sid=1792776605.13037&dispatch.sample_ratio=1&display.page.search.mode=smart&workload_pool=&q=%7C%20makeresults%0A%7C%20eval%20timestamp%3D%222026-10-07T09%3A00%3A00Z%22%0A%7C%20eval%20candidate_epoch%3Dstrptime(timestamp%2C%22%25Y-%25m-%25dT%25H%3A%25M%3A%25SZ%22)%2C%20utc_epoch%3Dstrptime(replace(timestamp%2C%22Z%24%22%2C%22%2B0000%22)%2C%22%25Y-%25m-%25dT%25H%3A%25M%3A%25S%25z%22)%0A%7C%20eval%20expected_epoch%3D1791363600%0A%7C%20eval%20candidate_delta%3Dcandidate_epoch-expected_epoch%2C%20utc_delta%3Dutc_epoch-expected_epoch%0A%7C%20table%20timestamp%20candidate_epoch%20utc_epoch%20expected_epoch%20candidate_delta%20utc_delta&earliest=0&latest=&display.general.type=statistics#
+						35 container
+							36 text entry area (settable) Search, Value: [text entry area: Search]
+								37 text (settable) 
+							38 container
+								39 text | makeresults | eval  timestamp= "2026-10-07T09:00:00Z" | eval  candidate_epoch= strptime (timestamp, "%Y-%m-%dT%H:%M:%SZ" ), utc_epoch     = strptime ( replace (timestamp, "Z$" , "+0000" ), "%Y-%m-%dT%H:%M:%S%z" ) | eval  expected_epoch= 1791363600 | eval  candidate_delta=candidate_epoch-expected_epoch, utc_delta=utc_epoch     -expected_epoch | table  timestamp candidate_epoch utc_epoch expected_epoch candidate_delta      utc_delta
+						40 pop up button Time range: All time
+						41 link Search Button, Value: …
+						42 button AI Assistant
+						43 container
+							44 text Complete ✓ 1  result (before 10/23/26 5:30:05.000 PM)
+						45 pop up button No Event Sampling
+						46 pop up button Job
+						47 button (disabled) Pause
+						48 button (disabled) Stop
+						49 button
+						50 button Print
+						51 button Export
+						52 pop up button Policy-Based Pool
+						53 combo box (collapsed, settable) Search Mode, Smart Mode, Secondary Actions: Expand, Value: Smart Mode
+
+							54 text Smart Mode
+						55 tab group (selectable)
+							56 tab (selectable) Events
+							57 tab (selectable) Patterns
+							58 tab (selected) Statistics (1)
+							59 tab (selectable) Visualization
+						60 combo box (collapsed, settable) Show: 20 Per Page, Secondary Actions: Expand, Value: Show: 20 Per Page
+
+							61 text Show: 
+							62 text 20 Per Page
+						63 pop up button Format visualization
+						64 switch (settable, boolean) Preview: On, Value: on
+						65 text Preview: On
+						66 table
+							67 row (selectable) timestamp Press to sort in ascending order
+Format Column - timestamp
+candidate_epoch Press to sort in descending order
+Format Column - candidate_epoch
+utc_epoch Press to sort in descending order
+Format Column - utc_epoch
+expected_epoch Press to sort in descending order
+Format Column - expected_epoch
+candidate_delta Press to sort in descending order
+Format Column - candidate_delta
+utc_delta Press to sort in descending order
+Format Column - utc_delta, Description: Format Column - timestamp
+Format Column - candidate_epoch
+Format Column - utc_epoch
+Format Column - expected_epoch
+Format Column - candidate_delta
+Format Column - utc_delta
+							68 row (selectable)
+								69 cell (selectable) 2026-10-07T09:00:00Z
+								70 cell (selectable) 1791363600.000000
+								71 cell (selectable) 1791363600.000000
+								72 cell (selectable) 1791363600
+								73 cell (selectable) 0.000000
+								74 cell (selectable) 0.000000
+				75 scroll bar (settable, float) 0

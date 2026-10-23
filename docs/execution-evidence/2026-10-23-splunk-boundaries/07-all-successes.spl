@@ -1,0 +1,10 @@
+index="main" source="splunk-boundary-2026-10-23.jsonl" host="p07-boundary-lab" sourcetype="_json" earliest=0
+| dedup timestamp username source_ip status
+| eval event_epoch=strptime(timestamp,"%Y-%m-%dT%H:%M:%SZ")
+| eventstats values(eval(if(status="failure",event_epoch,null()))) AS failure_times BY username source_ip
+| where status="success"
+| eval matching_failures=mvmap(failure_times,if(failure_times>=event_epoch-300 AND failure_times<event_epoch,failure_times,null()))
+| eval failure_count=coalesce(mvcount(matching_failures),0)
+| eval matching_ages_seconds=mvmap(matching_failures,event_epoch-matching_failures)
+| table timestamp username source_ip event_epoch failure_count matching_failures matching_ages_seconds
+| sort 0 username timestamp

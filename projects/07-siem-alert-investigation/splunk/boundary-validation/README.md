@@ -1,8 +1,10 @@
-# Project 07 — Splunk boundary-validation preparation
+# Project 07 — Splunk boundary validation
 
-**Prepared 23 October 2026. This fixture has NOT been run in Splunk Cloud.**
+**Prepared and subsequently executed on 23 October 2026.** The assistant ran the fixture in the owner’s authorized Splunk Cloud trial: 36 raw events, 35 unique tuples, all 10 success diagnostics matched, four threshold-three results and zero threshold-four results. Both the original candidate and the UTC-explicit variant passed these synthetic cases.
 
-The [22 October Project 07 Splunk lab](../../../../docs/execution-evidence/2026-10-22-splunk-cloud/README.md) was assistant-operated and verified only against the original seven fictional records and a threshold variation. This additional dataset is for a future owner-executed, authorized, synthetic-data validation run. Do not relabel expected outputs as observed results.
+Read the [dated observed execution record](../../../../docs/execution-evidence/2026-10-23-splunk-boundaries/EXECUTION-RECORD.md), [precise run sheet](RUN-SHEET.md), [blank execution template](EXECUTION-RECORD-TEMPLATE.md), and [fill-in case worksheet](execution-cases.csv). The expected JSON and case table below retain their role as expectations.
+
+The [22 October Project 07 Splunk lab](../../../../docs/execution-evidence/2026-10-22-splunk-cloud/README.md) was assistant-operated and verified only against the original seven fictional records and a threshold variation. This additional dataset was used for an assistant-operated, owner-authorized synthetic-data validation run; an independent owner rerun remains separate. Do not relabel expected outputs as observed results.
 
 ## Prepared fixture and cases
 
@@ -60,7 +62,7 @@ index="main" source="splunk-boundary-2026-10-23.jsonl" host="p07-boundary-lab" s
 | sort 0 username timestamp
 ```
 
-Expected **four** rows (not yet observed): `edge_300` 09:05:00Z (3); `out_order` 09:04:00Z (3); `two_successes` 09:03:00Z (3) and 09:04:00Z (3). See the JSON for precise IPs. As a negative control, change only `failure_count>=3` to `>=4`: expect zero rows; then restore 3.
+Expected **four** rows (subsequently observed as documented in the dated record): `edge_300` 09:05:00Z (3); `out_order` 09:04:00Z (3); `two_successes` 09:03:00Z (3) and 09:04:00Z (3). See the JSON for precise IPs. As a negative control, change only `failure_count>=3` to `>=4`: expect zero rows; then restore 3.
 
 ## Required execution evidence before declaring validation complete
 

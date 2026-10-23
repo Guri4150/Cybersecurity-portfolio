@@ -1,0 +1,809 @@
+Sanitized accessibility snapshot: browser chrome omitted; trial hostname and local paths replaced. Result values and search IDs preserved.
+
+				4 HTML content Description: Search job inspector | Splunk 10.6.1.0, URL: [trial-host]/en-US/manager/search/job_inspector?sid=1792776734.13048
+					5 container
+						6 heading Search job inspector, Value: 1
+							7 text Search job inspector
+						8 text This search has completed and has returned  4  results by scanning  36  events in  0.122  seconds (SID: 1792776734.13048) 
+						9 link search.log, Value: [trial-host]/en-US/api/search/jobs/1792776734.13048/search.log
+						10 link Job Details Dashboard, Value: [trial-host]/en-US/app/search/job_details_dashboard?form.sid=1792776734.13048
+						11 link (expanded) ˅ Execution costs, Value: [trial-host]/en-US/manager/search/job_inspector?sid=1792776734.13048#, Secondary Actions: Collapse
+						12 table
+							13 row (selectable) Duration (seconds)
+Component
+Invocations
+Input count
+Output count
+							14 row (selectable)
+								15 cell (selectable) Duration bar
+								16 cell (selectable) 0.00
+								17 cell (selectable) command.addinfo
+								18 cell (selectable) 1
+								19 cell (selectable) 4
+								20 cell (selectable) 4
+							21 row (selectable)
+								22 cell (selectable) Duration bar
+								23 cell (selectable) 0.00
+								24 cell (selectable) command.dedup
+								25 cell (selectable) 3
+								26 cell (selectable) 35
+								27 cell (selectable) 35
+							28 row (selectable)
+								29 cell (selectable) Duration bar
+								30 cell (selectable) 0.00
+								31 cell (selectable) command.eval
+								32 cell (selectable) 4
+								33 cell (selectable) 45
+								34 cell (selectable) 45
+							35 row (selectable)
+								36 cell (selectable) Duration bar
+								37 cell (selectable) 0.00
+								38 cell (selectable) command.eventstats
+								39 cell (selectable) 1
+								40 cell (selectable) 35
+								41 cell (selectable) 35
+							42 row (selectable)
+								43 cell (selectable) Duration bar
+								44 cell (selectable) 0.00
+								45 cell (selectable) command.fields
+								46 cell (selectable) 1
+								47 cell (selectable) 36
+								48 cell (selectable) 36
+							49 row (selectable)
+								50 cell (selectable) Duration bar
+								51 cell (selectable) 0.00
+								52 cell (selectable) command.prededup
+								53 cell (selectable) 1
+								54 cell (selectable) 36
+								55 cell (selectable) 35
+							56 row (selectable)
+								57 cell (selectable) Duration bar
+								58 cell (selectable) 0.00
+								59 cell (selectable) command.presort
+								60 cell (selectable) 1
+								61 cell (selectable) 4
+								62 cell (selectable) 4
+							63 row (selectable)
+								64 cell (selectable) Duration bar
+								65 cell (selectable) 0.00
+								66 cell (selectable) command.search
+								67 cell (selectable) 1
+								68 cell (selectable) -
+								69 cell (selectable) 36
+							70 row (selectable)
+								71 cell (selectable) Duration bar
+								72 cell (selectable) 0.01
+								73 cell (selectable) command.search.expand_search
+								74 cell (selectable) 1
+								75 cell (selectable) -
+								76 cell (selectable) -
+							77 row (selectable)
+								78 cell (selectable) Duration bar
+								79 cell (selectable) 0.00
+								80 cell (selectable) command.search.calcfields
+								81 cell (selectable) 1
+								82 cell (selectable) 36
+								83 cell (selectable) 36
+							84 row (selectable)
+								85 cell (selectable) Duration bar
+								86 cell (selectable) 0.00
+								87 cell (selectable) command.search.expand_search.calcfield
+								88 cell (selectable) 1
+								89 cell (selectable) -
+								90 cell (selectable) -
+							91 row (selectable)
+								92 cell (selectable) Duration bar
+								93 cell (selectable) 0.00
+								94 cell (selectable) command.search.expand_search.fieldaliaser
+								95 cell (selectable) 1
+								96 cell (selectable) -
+								97 cell (selectable) -
+							98 row (selectable)
+								99 cell (selectable) Duration bar
+								100 cell (selectable) 0.00
+								101 cell (selectable) command.search.expand_search.indexed_fields
+								102 cell (selectable) 1
+								103 cell (selectable) -
+								104 cell (selectable) -
+							105 row (selectable)
+								106 cell (selectable) Duration bar
+								107 cell (selectable) 0.00
+								108 cell (selectable) command.search.expand_search.kv
+								109 cell (selectable) 1
+								110 cell (selectable) -
+								111 cell (selectable) -
+							112 row (selectable)
+								113 cell (selectable) Duration bar
+								114 cell (selectable) 0.00
+								115 cell (selectable) command.search.expand_search.lookup
+								116 cell (selectable) 1
+								117 cell (selectable) -
+								118 cell (selectable) -
+							119 row (selectable)
+								120 cell (selectable) Duration bar
+								121 cell (selectable) 0.01
+								122 cell (selectable) command.search.expand_search.sourcetype
+								123 cell (selectable) 1
+								124 cell (selectable) -
+								125 cell (selectable) -
+							126 row (selectable)
+								127 cell (selectable) Duration bar
+								128 cell (selectable) 0.00
+								129 cell (selectable) command.search.index
+								130 cell (selectable) 2
+								131 cell (selectable) -
+								132 cell (selectable) -
+							133 row (selectable)
+								134 cell (selectable) Duration bar
+								135 cell (selectable) 0.00
+								136 cell (selectable) command.search.fieldalias
+								137 cell (selectable) 1
+								138 cell (selectable) 36
+								139 cell (selectable) 36
+							140 row (selectable)
+								141 cell (selectable) Duration bar
+								142 cell (selectable) 0.00
+								143 cell (selectable) command.search.filter
+								144 cell (selectable) 1
+								145 cell (selectable) 36
+								146 cell (selectable) 36
+							147 row (selectable)
+								148 cell (selectable) Duration bar
+								149 cell (selectable) 0.00
+								150 cell (selectable) command.search.index.bucketcache.error
+								151 cell (selectable) -
+								152 cell (selectable) -
+								153 cell (selectable) -
+							154 row (selectable)
+								155 cell (selectable) Duration bar
+								156 cell (selectable) 0.00
+								157 cell (selectable) command.search.index.bucketcache.hit
+								158 cell (selectable) 2
+								159 cell (selectable) -
+								160 cell (selectable) -
+							161 row (selectable)
+								162 cell (selectable) Duration bar
+								163 cell (selectable) 0.00
+								164 cell (selectable) command.search.index.bucketcache.miss
+								165 cell (selectable) -
+								166 cell (selectable) -
+								167 cell (selectable) -
+							168 row (selectable)
+								169 cell (selectable) Duration bar
+								170 cell (selectable) 0.00
+								171 cell (selectable) command.search.index.usec_1_8
+								172 cell (selectable) 45
+								173 cell (selectable) -
+								174 cell (selectable) -
+							175 row (selectable)
+								176 cell (selectable) Duration bar
+								177 cell (selectable) 0.00
+								178 cell (selectable) command.search.rawdata
+								179 cell (selectable) 1
+								180 cell (selectable) -
+								181 cell (selectable) -
+							182 row (selectable)
+								183 cell (selectable) Duration bar
+								184 cell (selectable) 0.00
+								185 cell (selectable) command.search.kv
+								186 cell (selectable) 1
+								187 cell (selectable) -
+								188 cell (selectable) -
+							189 row (selectable)
+								190 cell (selectable) Duration bar
+								191 cell (selectable) 0.00
+								192 cell (selectable) command.search.lookups
+								193 cell (selectable) 1
+								194 cell (selectable) 36
+								195 cell (selectable) 36
+							196 row (selectable)
+								197 cell (selectable) Duration bar
+								198 cell (selectable) 0.00
+								199 cell (selectable) command.search.parse_directives
+								200 cell (selectable) 1
+								201 cell (selectable) -
+								202 cell (selectable) -
+							203 row (selectable)
+								204 cell (selectable) Duration bar
+								205 cell (selectable) 0.00
+								206 cell (selectable) command.search.rawdata.bucketcache.error
+								207 cell (selectable) -
+								208 cell (selectable) -
+								209 cell (selectable) -
+							210 row (selectable)
+								211 cell (selectable) Duration bar
+								212 cell (selectable) 0.00
+								213 cell (selectable) command.search.rawdata.bucketcache.hit
+								214 cell (selectable) 1
+								215 cell (selectable) -
+								216 cell (selectable) -
+							217 row (selectable)
+								218 cell (selectable) Duration bar
+								219 cell (selectable) 0.00
+								220 cell (selectable) command.search.rawdata.bucketcache.miss
+								221 cell (selectable) -
+								222 cell (selectable) -
+								223 cell (selectable) -
+							224 row (selectable)
+								225 cell (selectable) Duration bar
+								226 cell (selectable) 0.00
+								227 cell (selectable) command.search.summary
+								228 cell (selectable) 1
+								229 cell (selectable) -
+								230 cell (selectable) -
+							231 row (selectable)
+								232 cell (selectable) Duration bar
+								233 cell (selectable) 0.00
+								234 cell (selectable) command.search.tags
+								235 cell (selectable) 1
+								236 cell (selectable) 36
+								237 cell (selectable) 36
+							238 row (selectable)
+								239 cell (selectable) Duration bar
+								240 cell (selectable) 0.00
+								241 cell (selectable) command.search.track_sourcetypes
+								242 cell (selectable) 1
+								243 cell (selectable) -
+								244 cell (selectable) -
+							245 row (selectable)
+								246 cell (selectable) Duration bar
+								247 cell (selectable) 0.00
+								248 cell (selectable) command.search.typer
+								249 cell (selectable) 1
+								250 cell (selectable) 36
+								251 cell (selectable) 36
+							252 row (selectable)
+								253 cell (selectable) Duration bar
+								254 cell (selectable) 0.00
+								255 cell (selectable) command.simpleresultcombiner
+								256 cell (selectable) 3
+								257 cell (selectable) 35
+								258 cell (selectable) 35
+							259 row (selectable)
+								260 cell (selectable) Duration bar
+								261 cell (selectable) 0.00
+								262 cell (selectable) command.sort
+								263 cell (selectable) 1
+								264 cell (selectable) 4
+								265 cell (selectable) 4
+							266 row (selectable)
+								267 cell (selectable) Duration bar
+								268 cell (selectable) 0.00
+								269 cell (selectable) command.table
+								270 cell (selectable) 1
+								271 cell (selectable) 4
+								272 cell (selectable) 8
+							273 row (selectable)
+								274 cell (selectable) Duration bar
+								275 cell (selectable) 0.00
+								276 cell (selectable) command.where
+								277 cell (selectable) 2
+								278 cell (selectable) 45
+								279 cell (selectable) 14
+							280 row (selectable)
+								281 cell (selectable) Duration bar
+								282 cell (selectable) 0.00
+								283 cell (selectable) dispatch.evaluate.dedup
+								284 cell (selectable) 1
+								285 cell (selectable) -
+								286 cell (selectable) -
+							287 row (selectable)
+								288 cell (selectable) Duration bar
+								289 cell (selectable) 0.00
+								290 cell (selectable) dispatch.evaluate.eval
+								291 cell (selectable) 2
+								292 cell (selectable) -
+								293 cell (selectable) -
+							294 row (selectable)
+								295 cell (selectable) Duration bar
+								296 cell (selectable) 0.00
+								297 cell (selectable) dispatch.evaluate.eventstats
+								298 cell (selectable) 1
+								299 cell (selectable) -
+								300 cell (selectable) -
+							301 row (selectable)
+								302 cell (selectable) Duration bar
+								303 cell (selectable) 0.00
+								304 cell (selectable) dispatch.evaluate.presort
+								305 cell (selectable) 1
+								306 cell (selectable) -
+								307 cell (selectable) -
+							308 row (selectable)
+								309 cell (selectable) Duration bar
+								310 cell (selectable) 0.03
+								311 cell (selectable) dispatch.evaluate.search
+								312 cell (selectable) 1
+								313 cell (selectable) -
+								314 cell (selectable) -
+							315 row (selectable)
+								316 cell (selectable) Duration bar
+								317 cell (selectable) 0.00
+								318 cell (selectable) dispatch.evaluate.simpleresultcombiner
+								319 cell (selectable) 1
+								320 cell (selectable) -
+								321 cell (selectable) -
+							322 row (selectable)
+								323 cell (selectable) Duration bar
+								324 cell (selectable) 0.00
+								325 cell (selectable) dispatch.evaluate.sort
+								326 cell (selectable) 1
+								327 cell (selectable) -
+								328 cell (selectable) -
+							329 row (selectable)
+								330 cell (selectable) Duration bar
+								331 cell (selectable) 0.00
+								332 cell (selectable) dispatch.evaluate.table
+								333 cell (selectable) 1
+								334 cell (selectable) -
+								335 cell (selectable) -
+							336 row (selectable)
+								337 cell (selectable) Duration bar
+								338 cell (selectable) 0.00
+								339 cell (selectable) dispatch.evaluate.where
+								340 cell (selectable) 2
+								341 cell (selectable) -
+								342 cell (selectable) -
+							343 row (selectable)
+								344 cell (selectable) Duration bar
+								345 cell (selectable) 0.04
+								346 cell (selectable) dispatch.fetch.rcp.phase_0
+								347 cell (selectable) 3
+								348 cell (selectable) -
+								349 cell (selectable) -
+							350 row (selectable)
+								351 cell (selectable) Duration bar
+								352 cell (selectable) 0.00
+								353 cell (selectable) dispatch.finalWriteToDisk
+								354 cell (selectable) 1
+								355 cell (selectable) -
+								356 cell (selectable) -
+							357 row (selectable)
+								358 cell (selectable) Duration bar
+								359 cell (selectable) 0.00
+								360 cell (selectable) dispatch.localSearch
+								361 cell (selectable) 1
+								362 cell (selectable) -
+								363 cell (selectable) -
+							364 row (selectable)
+								365 cell (selectable) Duration bar
+								366 cell (selectable) 0.00
+								367 cell (selectable) dispatch.stream.local
+								368 cell (selectable) 1
+								369 cell (selectable) -
+								370 cell (selectable) -
+							371 row (selectable)
+								372 cell (selectable) Duration bar
+								373 cell (selectable) 0.00
+								374 cell (selectable) dispatch.writeStatus
+								375 cell (selectable) 3
+								376 cell (selectable) -
+								377 cell (selectable) -
+							378 row (selectable)
+								379 cell (selectable) Duration bar
+								380 cell (selectable) 0.01
+								381 cell (selectable) search.optimize
+								382 cell (selectable) 1
+								383 cell (selectable) -
+								384 cell (selectable) -
+							385 row (selectable)
+								386 cell (selectable) Duration bar
+								387 cell (selectable) 0.02
+								388 cell (selectable) startup.configuration
+								389 cell (selectable) 1
+								390 cell (selectable) -
+								391 cell (selectable) -
+							392 row (selectable)
+								393 cell (selectable) Duration bar
+								394 cell (selectable) 0.01
+								395 cell (selectable) startup.handoff
+								396 cell (selectable) 1
+								397 cell (selectable) -
+								398 cell (selectable) -
+						399 link (expanded) ˅ Search job properties, Value: [trial-host]/en-US/manager/search/job_inspector?sid=1792776734.13048#, Secondary Actions: Collapse
+						400 table
+							401 row (selectable)
+								402 cell (selectable) canSummarize
+								403 cell (selectable) None
+							404 row (selectable)
+								405 cell (selectable) createTime
+								406 cell (selectable) 2026-10-23T17:32:14.000+00:00
+							407 row (selectable)
+								408 cell (selectable) cursorTime
+								409 cell (selectable) 1970-01-01T00:00:00.000+00:00
+							410 row (selectable)
+								411 cell (selectable) custom
+								412 cell (selectable) Collapse, Value: {
+[-]
+dispatch.earliest_time
+:
+0
+dispatch.latest_time
+:
+dispatch.sample_ratio
+:
+1
+display.page.search.mode
+:
+smart
+search
+:
+index="main" source="splunk-boundary-2026-10-23.jsonl" host="p07-boundary-lab" sourcetype="_json" earliest=0 | dedup timestamp username source_ip status | eval event_epoch=strptime(replace(timestamp,"Z$","+0000"),"%Y-%m-%dT%H:%M:%S%z") | eventstats values(eval(if(status="failure",event_epoch,null()))) AS failure_times BY username source_ip | where status="success" | eval matching_failures=mvmap(failure_times,if(failure_times>=event_epoch-300 AND failure_times<event_epoch,failure_times,null())) | eval failur
+workload_pool
+:
+}
+							413 row (selectable)
+								414 cell (selectable) defaultSaveTTL
+								415 cell (selectable) 604800
+							416 row (selectable)
+								417 cell (selectable) defaultTTL
+								418 cell (selectable) 600
+							419 row (selectable)
+								420 cell (selectable) delegate
+								421 cell (selectable) None
+							422 row (selectable)
+								423 cell (selectable) diskUsage
+								424 cell (selectable) 106496
+							425 row (selectable)
+								426 cell (selectable) dispatchState
+								427 cell (selectable) DONE
+							428 row (selectable)
+								429 cell (selectable) doneProgress
+								430 cell (selectable) 1
+							431 row (selectable)
+								432 cell (selectable) dropCount
+								433 cell (selectable) None
+							434 row (selectable)
+								435 cell (selectable) eai:acl
+								436 cell (selectable) Collapse
+Expand, Value: {
+[-]
+app
+:
+search
+can_write
+:
+true
+modifiable
+:
+true
+owner
+:
+sc_admin
+perms
+:
+{
+[+]
+}
+sharing
+:
+global
+ttl
+:
+600
+}
+							437 row (selectable)
+								438 cell (selectable) earliestTime
+								439 cell (selectable) 2026-10-07T09:00:00.000+00:00
+							440 row (selectable)
+								441 cell (selectable) eventAvailableCount
+								442 cell (selectable) None
+							443 row (selectable)
+								444 cell (selectable) eventCount
+								445 cell (selectable) 4
+							446 row (selectable)
+								447 cell (selectable) eventFieldCount
+								448 cell (selectable) None
+							449 row (selectable)
+								450 cell (selectable) eventIsStreaming
+								451 cell (selectable) None
+							452 row (selectable)
+								453 cell (selectable) eventIsTruncated
+								454 cell (selectable) None
+							455 row (selectable)
+								456 cell (selectable) eventSearch
+								457 cell (selectable) search (earliest=0 host="p07-boundary-lab" index="main" source="splunk-boundary-2026-10-23.jsonl" sourcetype="_json") | dedup timestamp username source_ip status | eval event_epoch=strptime(replace(timestamp,"Z$","+0000"),"%Y-%m-%dT%H:%M:%S%z") | eventstats values(eval(if(status="failure",event_epoch,null()))) AS failure_times BY username source_ip | where (status == "success") | eval matching_failures=mvmap(failure_times,if(((failure_times >= (event_epoch - 300)) AND (failure_times < event_epoch)),failure_
+							458 row (selectable)
+								459 cell (selectable) eventSorting
+								460 cell (selectable) desc
+							461 row (selectable)
+								462 cell (selectable) fieldMetadataEvents
+								463 cell (selectable) Collapse
+Expand
+Expand
+Expand, Value: {
+[-]
+event_epoch
+:
+{
+[+]
+}
+failure_count
+:
+{
+[+]
+}
+matching_failures
+:
+{
+[+]
+}
+}
+							464 row (selectable)
+								465 cell (selectable) indexEarliestTime
+								466 cell (selectable) 1792776521
+							467 row (selectable)
+								468 cell (selectable) indexLatestTime
+								469 cell (selectable) 1792776521
+							470 row (selectable)
+								471 cell (selectable) isBatchModeSearch
+								472 cell (selectable) None
+							473 row (selectable)
+								474 cell (selectable) isDone
+								475 cell (selectable) true
+							476 row (selectable)
+								477 cell (selectable) isEventsPreviewEnabled
+								478 cell (selectable) None
+							479 row (selectable)
+								480 cell (selectable) isFailed
+								481 cell (selectable) None
+							482 row (selectable)
+								483 cell (selectable) isFinalized
+								484 cell (selectable) None
+							485 row (selectable)
+								486 cell (selectable) isPaused
+								487 cell (selectable) None
+							488 row (selectable)
+								489 cell (selectable) isPreviewEnabled
+								490 cell (selectable) true
+							491 row (selectable)
+								492 cell (selectable) isRealTimeSearch
+								493 cell (selectable) None
+							494 row (selectable)
+								495 cell (selectable) isRemoteTimeline
+								496 cell (selectable) None
+							497 row (selectable)
+								498 cell (selectable) isSaved
+								499 cell (selectable) None
+							500 row (selectable)
+								501 cell (selectable) isSavedSearch
+								502 cell (selectable) None
+							503 row (selectable)
+								504 cell (selectable) isTimeCursored
+								505 cell (selectable) true
+							506 row (selectable)
+								507 cell (selectable) isZombie
+								508 cell (selectable) None
+							509 row (selectable)
+								510 cell (selectable) is_prjob
+								511 cell (selectable) None
+							512 row (selectable)
+								513 cell (selectable) keywords
+								514 cell (selectable) earliest::0 host::p07-boundary-lab index::main source::splunk-boundary-2026-10-23.jsonl sourcetype::_json
+							515 row (selectable)
+								516 cell (selectable) label
+								517 cell (selectable) None
+							518 row (selectable)
+								519 cell (selectable) modifiedTime
+								520 cell (selectable) 2026-10-23T17:33:01.736+00:00
+							521 row (selectable)
+								522 cell (selectable) normalizedSearch
+								523 cell (selectable) litsearch (index="main" source="splunk-boundary-2026-10-23.jsonl" host="p07-boundary-lab" sourcetype="_json" earliest=0) | fields keepcolorder=t "failure_times" "source_ip" "status" "timestamp" "username" | prededup 1 keepempty=false consecutive=false keepevents=false "timestamp" "username" "source_ip" "status"
+							524 row (selectable)
+								525 cell (selectable) numPreviews
+								526 cell (selectable) None
+							527 row (selectable)
+								528 cell (selectable) optimizedSearch
+								529 cell (selectable) | search (earliest=0 host="p07-boundary-lab" index="main" source="splunk-boundary-2026-10-23.jsonl" sourcetype="_json") | dedup timestamp username source_ip status | eval event_epoch=strptime(replace(timestamp,"Z$","+0000"),"%Y-%m-%dT%H:%M:%S%z") | eventstats values(eval(if(status="failure",event_epoch,null()))) AS failure_times BY username source_ip | where (status == "success") | eval matching_failures=mvmap(failure_times,if(((failure_times >= (event_epoch - 300)) AND (failure_times < event_epoch)),failur
+							530 row (selectable)
+								531 cell (selectable) phase0
+								532 cell (selectable) litsearch (host="p07-boundary-lab" index="main" source="splunk-boundary-2026-10-23.jsonl" sourcetype="_json" _time>=0.000) | fields keepcolorder=t "failure_times" "source_ip" "status" "timestamp" "username" | prededup 1 keepempty=false consecutive=false keepevents=false "timestamp" "username" "source_ip" "status"
+							533 row (selectable)
+								534 cell (selectable) phase1
+								535 cell (selectable) simpleresultcombiner max=0 | dedup timestamp username source_ip status | eval event_epoch=strptime(replace(timestamp,"Z$","+0000"),"%Y-%m-%dT%H:%M:%S%z") | eventstats values(eval(if(status="failure",event_epoch,null()))) AS failure_times BY username source_ip | where (status == "success") | eval matching_failures=mvmap(failure_times,if(((failure_times >= (event_epoch - 300)) AND (failure_times < event_epoch)),failure_times,null())), failure_count=coalesce(mvcount(matching_failures),0) | where (failure_count
+							536 row (selectable)
+								537 cell (selectable) pid
+								538 cell (selectable) 2924195
+							539 row (selectable)
+								540 cell (selectable) priority
+								541 cell (selectable) 5
+							542 row (selectable)
+								543 cell (selectable) provenance
+								544 cell (selectable) UI:Search
+							545 row (selectable)
+								546 cell (selectable) remoteSearch
+								547 cell (selectable) litsearch (host="p07-boundary-lab" index="main" source="splunk-boundary-2026-10-23.jsonl" sourcetype="_json" _time>=0.000) | fields keepcolorder=t "failure_times" "source_ip" "status" "timestamp" "username" | prededup 1 keepempty=false consecutive=false keepevents=false "timestamp" "username" "source_ip" "status"
+							548 row (selectable)
+								549 cell (selectable) reportSearch
+								550 cell (selectable) table timestamp, username, source_ip, failure_count | sort 0 username timestamp
+							551 row (selectable)
+								552 cell (selectable) request
+								553 cell (selectable) Collapse, Value: {
+[-]
+adhoc_search_level
+:
+smart
+auto_cancel
+:
+62
+check_risky_command
+:
+false
+custom.dispatch.earliest_time
+:
+0
+custom.dispatch.latest_time
+:
+custom.dispatch.sample_ratio
+:
+1
+custom.display.page.search.mode
+:
+smart
+custom.search
+:
+index="main" source="splunk-boundary-2026-10-23.jsonl" host="p07-boundary-lab" sourcetype="_json" earliest=0 | dedup timestamp username source_ip status | eval event_epoch=strptime(replace(timestamp,"Z$","+0000"),"%Y-%m-%dT%H:%M:%S%z") | eventstats values(eval(if(status="failure",event_epoch,null()))) AS failure_times BY username source_ip | where status="success" | eval matching_failures=mvmap(failure_times,if(failure_times>=event_epoch-300 AND failure_times<event_epoch,failure_times,null())) | eval failur
+custom.workload_pool
+:
+earliest_time
+:
+0
+indexedRealtime
+:
+latest_time
+:
+preview
+:
+1
+provenance
+:
+UI:Search
+rf
+:
+*
+sample_ratio
+:
+1
+search
+:
+search index="main" source="splunk-boundary-2026-10-23.jsonl" host="p07-boundary-lab" sourcetype="_json" earliest=0 | dedup timestamp username source_ip status | eval event_epoch=strptime(replace(timestamp,"Z$","+0000"),"%Y-%m-%dT%H:%M:%S%z") | eventstats values(eval(if(status="failure",event_epoch,null()))) AS failure_times BY username source_ip | where status="success" | eval matching_failures=mvmap(failure_times,if(failure_times>=event_epoch-300 AND failure_times<event_epoch,failure_times,null())) | eval
+status_buckets
+:
+300
+ui_dispatch_app
+:
+search
+workload_pool
+:
+}
+							554 row (selectable)
+								555 cell (selectable) resultCount
+								556 cell (selectable) 4
+							557 row (selectable)
+								558 cell (selectable) resultIsStreaming
+								559 cell (selectable) None
+							560 row (selectable)
+								561 cell (selectable) resultPreviewCount
+								562 cell (selectable) 4
+							563 row (selectable)
+								564 cell (selectable) runDuration
+								565 cell (selectable) 0.122
+							566 row (selectable)
+								567 cell (selectable) runtime
+								568 cell (selectable) Collapse, Value: {
+[-]
+auto_cancel
+:
+62
+auto_pause
+:
+0
+}
+							569 row (selectable)
+								570 cell (selectable) sampleRatio
+								571 cell (selectable) 1
+							572 row (selectable)
+								573 cell (selectable) sampleSeed
+								574 cell (selectable) 0
+							575 row (selectable)
+								576 cell (selectable) scanCount
+								577 cell (selectable) 36
+							578 row (selectable)
+								579 cell (selectable) search
+								580 cell (selectable) search index="main" source="splunk-boundary-2026-10-23.jsonl" host="p07-boundary-lab" sourcetype="_json" earliest=0 | dedup timestamp username source_ip status | eval event_epoch=strptime(replace(timestamp,"Z$","+0000"),"%Y-%m-%dT%H:%M:%S%z") | eventstats values(eval(if(status="failure",event_epoch,null()))) AS failure_times BY username source_ip | where status="success" | eval matching_failures=mvmap(failure_times,if(failure_times>=event_epoch-300 AND failure_times<event_epoch,failure_times,null())) | eval
+							581 row (selectable)
+								582 cell (selectable) searchCanBeEventType
+								583 cell (selectable) None
+							584 row (selectable)
+								585 cell (selectable) searchProviders
+								586 cell (selectable) Collapse, Value: [
+[-]
+si-i-070c787171fc53a30.[trial-host]
+]
+							587 row (selectable)
+								588 cell (selectable) searchTelemetry
+								589 cell (selectable) Collapse
+Expand
+Expand
+Expand
+Expand
+Expand
+Expand
+Expand, Value: {
+[-]
+ast
+:
+{
+[+]
+}
+buckets
+:
+{
+[+]
+}
+desc
+:
+{
+[+]
+}
+feature_flags
+:
+{
+[+]
+}
+perf
+:
+{
+[+]
+}
+phases
+:
+{
+[+]
+}
+root_search_id
+:
+1792776734.13048
+search_commands
+:
+[
+[+]
+]
+search_id
+:
+1792776734.13048
+status
+:
+success
+timestamp
+:
+1792776734.426778
+type
+:
+ad-hoc
+}
+							590 row (selectable)
+								591 cell (selectable) searchTotalBucketsCount
+								592 cell (selectable) 2
+							593 row (selectable)
+								594 cell (selectable) searchTotalEliminatedBucketsCount
+								595 cell (selectable) 1
+							596 row (selectable)
+								597 cell (selectable) sid
+								598 cell (selectable) 1792776734.13048
+							599 row (selectable)
+								600 cell (selectable) statusBuckets
+								601 cell (selectable) None
+							602 row (selectable)
+								603 cell (selectable) ttl
+								604 cell (selectable) 600
+							605 row (selectable)
+								606 cell (selectable) workload_action_information
+								607 cell (selectable) None
+							608 row (selectable)
+								609 cell (selectable) workload_pool
+								610 cell (selectable) standard_perf
+							611 row (selectable)
+								612 cell (selectable) Additional info
+								613 cell (selectable) search.log
+						614 text Server info:  Splunk 10.6.1.0, [trial-host], Fri Oct 23 23:03:02 2026  User:  sc_admin
+				615 scroll bar (settable, float) 0.1706107

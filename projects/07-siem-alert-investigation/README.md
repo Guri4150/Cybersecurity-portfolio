@@ -127,8 +127,25 @@ events even though this query deduplicates matching field tuples.
 - A matching sequence warrants review; it does not prove compromise.
 
 These explanations were developed during guided practice. The original Python
-tests cover boundary conditions; this SPL has only been checked on the supplied
-fixture and the threshold-4 variation.
+tests cover boundary conditions; the October 22 SPL run covered the supplied
+seven-event fixture and threshold-4 variation. The additional October 23 run is documented below.
+
+## Splunk boundary validation — 23 October 2026
+
+The assistant subsequently ran a separate 36-record fictional fixture in the
+owner’s authorized Splunk Cloud trial through Safari. Observed: 36 raw events,
+35 unique tuples, all 10 success-event diagnostics matching expected failure
+counts and ages, four qualifying successes at threshold 3, and zero at threshold
+4. Restoring threshold 3 returned the same four rows. The original candidate
+and a separately labeled UTC-explicit variant both passed these cases.
+
+The checks cover the inclusive 300-second boundary, excluded 301-second and
+same-second failures, username/IP isolation, duplicate tuples, unsorted input,
+multiple successes without a reset, and the two-failure negative control.
+Read the [observed execution record and evidence](../../docs/execution-evidence/2026-10-23-splunk-boundaries/EXECUTION-RECORD.md)
+and [repeatable run sheet](splunk/boundary-validation/RUN-SHEET.md). Expected
+outcomes remain separate from the CSV exports and completed comparisons.
+This was assistant-operated, not an independent owner rerun or production test.
 
 ## Limitations and next lab
 
@@ -139,7 +156,7 @@ See detection.md for deduplication, false positives, false negatives, and
 performance limits. The simulated investigation deliberately leaves uncertainty
 unresolved instead of inventing user interviews or endpoint findings.
 
-Next: validate the SPL against additional boundary fixtures and document an
-independent rerun. Scheduled alerting and production deployment remain outside
+Next: document an independent owner rerun and extend coverage beyond the
+completed synthetic boundary fixture. Scheduled alerting and production deployment remain outside
 the completed scope. See the execution record for timestamp parsing, schema
 validation, and search-memory limitations of this small lab query.

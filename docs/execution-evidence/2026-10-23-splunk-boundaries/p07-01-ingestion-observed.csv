@@ -1,0 +1,2 @@
+index,source,host,sourcetype,"raw_events"
+main,"splunk-boundary-2026-10-23.jsonl","p07-boundary-lab","_json",36

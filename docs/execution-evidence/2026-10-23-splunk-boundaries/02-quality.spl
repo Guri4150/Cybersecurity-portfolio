@@ -1,0 +1,7 @@
+index="main" source="splunk-boundary-2026-10-23.jsonl" host="p07-boundary-lab" sourcetype="_json" earliest=0
+| eval utc_epoch=strptime(replace(timestamp,"Z$","+0000"),"%Y-%m-%dT%H:%M:%S%z")
+| eval missing_or_multivalue=if(coalesce(mvcount(timestamp),0)!=1 OR coalesce(mvcount(username),0)!=1 OR coalesce(mvcount(source_ip),0)!=1 OR coalesce(mvcount(status),0)!=1,1,0)
+| eval bad_status=if(isnull(status) OR (status!="failure" AND status!="success"),1,0)
+| eval bad_time=if(isnull(utc_epoch) OR NOT match(timestamp,"^[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{2}:[0-9]{2}:[0-9]{2}Z$"),1,0)
+| eval time_mismatch=if(isnull(utc_epoch) OR _time!=utc_epoch,1,0)
+| stats count AS raw_events sum(missing_or_multivalue) AS missing_or_multivalue sum(bad_status) AS bad_status sum(bad_time) AS bad_time sum(time_mismatch) AS time_mismatch min(utc_epoch) AS min_epoch max(utc_epoch) AS max_epoch

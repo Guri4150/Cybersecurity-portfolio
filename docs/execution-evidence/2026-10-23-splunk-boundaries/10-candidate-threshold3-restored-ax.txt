@@ -1,0 +1,99 @@
+Sanitized accessibility snapshot: browser chrome omitted; trial hostname and local paths replaced. Result values and search IDs preserved.
+
+				4 HTML content Description: Search | Splunk 10.6.1.0, URL: …
+					5 link Click here to skip the navigation bar, Value: [trial-host]/en-US/app/search/search?sid=1792776678.13043&dispatch.sample_ratio=1&display.page.search.mode=smart&workload_pool=&q=search%20index%3D%22main%22%20source%3D%22splunk-boundary-2026-10-23.jsonl%22%20host%3D%22p07-boundary-lab%22%20sourcetype%3D%22_json%22%20earliest%3D0%0A%7C%20dedup%20timestamp%20username%20source_ip%20status%0A%7C%20eval%20event_epoch%3Dstrptime(timestamp%2C%22%25Y-%25m-%25dT%25H%3A%25M%3A%25SZ%22)%0A%7C%20eventstats%20values(eval(if(status%3D%22failure%22%2Cevent_epoch%2Cnull())))%20AS%20failure_times%20BY%20username%20source_ip%0A%7C%20where%20status%3D%22success%22%0A%7C%20eval%20matching_failures%3Dmvmap(failure_times%2Cif(failure_times%3E%3Devent_epoch-300%20AND%20failure_times%3Cevent_epoch%2Cfailure_times%2Cnull()))%0A%7C%20eval%20failure_count%3Dcoalesce(mvcount(matching_failures)%2C0)%0A%7C%20where%20failure_count%3E%3D3%0A%7C%20table%20timestamp%20username%20source_ip%20failure_count%0A%7C%20sort%200%20username%20timestamp&earliest=0&latest=&display.general.type=statistics#navSkip
+					6 container
+						7 link Skip to main content, Value: [trial-host]/en-US/app/search/search?sid=1792776678.13043&dispatch.sample_ratio=1&display.page.search.mode=smart&workload_pool=&q=search%20index%3D%22main%22%20source%3D%22splunk-boundary-2026-10-23.jsonl%22%20host%3D%22p07-boundary-lab%22%20sourcetype%3D%22_json%22%20earliest%3D0%0A%7C%20dedup%20timestamp%20username%20source_ip%20status%0A%7C%20eval%20event_epoch%3Dstrptime(timestamp%2C%22%25Y-%25m-%25dT%25H%3A%25M%3A%25SZ%22)%0A%7C%20eventstats%20values(eval(if(status%3D%22failure%22%2Cevent_epoch%2Cnull())))%20AS%20failure_times%20BY%20username%20source_ip%0A%7C%20where%20status%3D%22success%22%0A%7C%20eval%20matching_failures%3Dmvmap(failure_times%2Cif(failure_times%3E%3Devent_epoch-300%20AND%20failure_times%3Cevent_epoch%2Cfailure_times%2Cnull()))%0A%7C%20eval%20failure_count%3Dcoalesce(mvcount(matching_failures)%2C0)%0A%7C%20where%20failure_count%3E%3D3%0A%7C%20table%20timestamp%20username%20source_ip%20failure_count%0A%7C%20sort%200%20username%20timestamp&earliest=0&latest=&display.general.type=statistics#main
+						8 link Splunk, Value: [trial-host]/en-US/app/launcher
+						9 button Health of Splunk Deployment
+						10 button Find
+						11 pop up button Activity
+						12 pop up button Settings
+						13 pop up button Notifications1 messages
+						14 pop up button Help
+						15 pop up button User Profile
+						16 pop up button Apps
+					17 container
+						18 container Side navigation panel
+							19 heading Side navigation panel, Value: 2
+								20 text Side navigation panel
+							21 switch (settable, boolean) Menu shrink, Value: on
+							22 link Search & Reporting logo, Value: [trial-host]/en-US/app/search
+							23 container
+								24 Search
+								25 Datasets
+								26 Reports
+								27 Alerts
+								28 Dashboards
+								29 Modules
+						30 heading New Search, Value: 1
+							31 text New Search
+						32 link Save As, Value: [trial-host]/en-US/app/search/search?sid=1792776678.13043&dispatch.sample_ratio=1&display.page.search.mode=smart&workload_pool=&q=search%20index%3D%22main%22%20source%3D%22splunk-boundary-2026-10-23.jsonl%22%20host%3D%22p07-boundary-lab%22%20sourcetype%3D%22_json%22%20earliest%3D0%0A%7C%20dedup%20timestamp%20username%20source_ip%20status%0A%7C%20eval%20event_epoch%3Dstrptime(timestamp%2C%22%25Y-%25m-%25dT%25H%3A%25M%3A%25SZ%22)%0A%7C%20eventstats%20values(eval(if(status%3D%22failure%22%2Cevent_epoch%2Cnull())))%20AS%20failure_times%20BY%20username%20source_ip%0A%7C%20where%20status%3D%22success%22%0A%7C%20eval%20matching_failures%3Dmvmap(failure_times%2Cif(failure_times%3E%3Devent_epoch-300%20AND%20failure_times%3Cevent_epoch%2Cfailure_times%2Cnull()))%0A%7C%20eval%20failure_count%3Dcoalesce(mvcount(matching_failures)%2C0)%0A%7C%20where%20failure_count%3E%3D3%0A%7C%20table%20timestamp%20username%20source_ip%20failure_count%0A%7C%20sort%200%20username%20timestamp&earliest=0&latest=&display.general.type=statistics#
+						33 link Create Table View, Value: …
+						34 link Close, Value: …
+						35 container
+							36 text entry area (settable) Search, Value: [text entry area: Search]
+								37 text (settable) 
+							38 container
+								39 text index= "main"  source= "splunk-boundary-2026-10-23.jsonl"  host= "p07-boundary-lab"     sourcetype= "_json" earliest = 0 | dedup  timestamp username source_ip status | eval  event_epoch= strptime (timestamp, "%Y-%m-%dT%H:%M:%SZ" ) | eventstats values ( eval ( if (status= "failure" ,event_epoch, null ())))  AS     failure_times  BY  username source_ip | where  status= "success" | eval  matching_failures= mvmap (failure_times, if (failure_times>=event_epoch -300 AND  failure_times<event_epoch,failure_times, null ())) | eval  failure_count= coalesce ( mvcount (matching_failures), 0 ) | where  failure_count>= 3 | table  timestamp username source_ip failure_count | sort 0  username timestamp
+						40 pop up button Time range: All time
+						41 link Search Button, Value: …
+						42 button AI Assistant
+						43 container
+							44 text Complete ✓ 4  events  (before 10/23/26 5:31:18.000 PM)
+						45 pop up button No Event Sampling
+						46 pop up button Job
+						47 button (disabled) Pause
+						48 button (disabled) Stop
+						49 button
+						50 button Print
+						51 button Export
+						52 pop up button Policy-Based Pool
+						53 combo box (collapsed, settable) Search Mode, Smart Mode, Secondary Actions: Expand, Value: Smart Mode
+
+							54 text Smart Mode
+						55 tab group (selectable)
+							56 tab (selectable) Events
+							57 tab (selectable) Patterns
+							58 tab (selected) Statistics (4)
+							59 tab (selectable) Visualization
+						60 combo box (collapsed, settable) Show: 20 Per Page, Secondary Actions: Expand, Value: Show: 20 Per Page
+
+							61 text Show: 
+							62 text 20 Per Page
+						63 pop up button Format visualization
+						64 switch (settable, boolean) Preview: On, Value: on
+						65 text Preview: On
+						66 table
+							67 row (selectable) timestamp Press to sort in ascending order
+Format Column - timestamp
+username Press to sort in ascending order
+Format Column - username
+source_ip Press to sort in ascending order
+Format Column - source_ip
+failure_count Press to sort in descending order
+Format Column - failure_count, Description: Format Column - timestamp
+Format Column - username
+Format Column - source_ip
+Format Column - failure_count
+							68 row (selectable)
+								69 cell (selectable) 2026-10-07T09:05:00Z
+								70 cell (selectable) edge_300
+								71 cell (selectable) 192.0.2.11
+								72 cell (selectable) 3
+							73 row (selectable)
+								74 cell (selectable) 2026-10-07T09:04:00Z
+								75 cell (selectable) out_order
+								76 cell (selectable) 192.0.2.18
+								77 cell (selectable) 3
+							78 row (selectable)
+								79 cell (selectable) 2026-10-07T09:03:00Z
+								80 cell (selectable) two_successes
+								81 cell (selectable) 192.0.2.19
+								82 cell (selectable) 3
+							83 row (selectable)
+								84 cell (selectable) 2026-10-07T09:04:00Z
+								85 cell (selectable) two_successes
+								86 cell (selectable) 192.0.2.19
+								87 cell (selectable) 3
+				88 scroll bar (settable, float) 0
