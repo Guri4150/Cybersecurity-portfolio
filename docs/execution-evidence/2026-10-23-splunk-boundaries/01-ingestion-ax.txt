@@ -1,0 +1,88 @@
+Sanitized accessibility snapshot: browser chrome omitted; trial hostname and local paths replaced. Result values and search IDs preserved.
+
+				4 HTML content Description: Search | Splunk 10.6.1.0, URL: [trial-host]/en-US/app/search/search?sid=1792776547.13033&dispatch.sample_ratio=1&display.page.search.mode=smart&workload_pool=&q=search%20index%3D%22main%22%20source%3D%22splunk-boundary-2026-10-23.jsonl%22%20host%3D%22p07-boundary-lab%22%20sourcetype%3D%22_json%22%20earliest%3D0%0A%7C%20stats%20count%20AS%20raw_events%20BY%20index%20source%20host%20sourcetype&earliest=0&latest=&display.general.type=statistics
+					5 link Click here to skip the navigation bar, Value: [trial-host]/en-US/app/search/search?sid=1792776547.13033&dispatch.sample_ratio=1&display.page.search.mode=smart&workload_pool=&q=search%20index%3D%22main%22%20source%3D%22splunk-boundary-2026-10-23.jsonl%22%20host%3D%22p07-boundary-lab%22%20sourcetype%3D%22_json%22%20earliest%3D0%0A%7C%20stats%20count%20AS%20raw_events%20BY%20index%20source%20host%20sourcetype&earliest=0&latest=&display.general.type=statistics#navSkip
+					6 container
+						7 link Skip to main content, Value: [trial-host]/en-US/app/search/search?sid=1792776547.13033&dispatch.sample_ratio=1&display.page.search.mode=smart&workload_pool=&q=search%20index%3D%22main%22%20source%3D%22splunk-boundary-2026-10-23.jsonl%22%20host%3D%22p07-boundary-lab%22%20sourcetype%3D%22_json%22%20earliest%3D0%0A%7C%20stats%20count%20AS%20raw_events%20BY%20index%20source%20host%20sourcetype&earliest=0&latest=&display.general.type=statistics#main
+						8 link Splunk, Value: [trial-host]/en-US/app/launcher
+						9 button Health of Splunk Deployment
+						10 button Find
+						11 pop up button Activity
+						12 pop up button Settings
+						13 pop up button Notifications1 messages
+						14 pop up button Help
+						15 pop up button User Profile
+						16 pop up button Apps
+					17 container
+						18 container Side navigation panel
+							19 heading Side navigation panel, Value: 2
+								20 text Side navigation panel
+							21 switch (settable, boolean) Menu shrink, Value: on
+							22 link Search & Reporting logo, Value: [trial-host]/en-US/app/search
+							23 container
+								24 Search
+								25 Datasets
+								26 Reports
+								27 Alerts
+								28 Dashboards
+								29 Modules
+						30 heading New Search, Value: 1
+							31 text New Search
+						32 link Save As, Value: [trial-host]/en-US/app/search/search?sid=1792776547.13033&dispatch.sample_ratio=1&display.page.search.mode=smart&workload_pool=&q=search%20index%3D%22main%22%20source%3D%22splunk-boundary-2026-10-23.jsonl%22%20host%3D%22p07-boundary-lab%22%20sourcetype%3D%22_json%22%20earliest%3D0%0A%7C%20stats%20count%20AS%20raw_events%20BY%20index%20source%20host%20sourcetype&earliest=0&latest=&display.general.type=statistics#
+						33 link Create Table View, Value: [trial-host]/en-US/app/search/table?bs=index%3D%22main%22%20source%3D%22splunk-boundary-2026-10-23.jsonl%22%20host%3D%22p07-boundary-lab%22%20sourcetype%3D%22_json%22%20earliest%3D0%0A%7C%20stats%20count%20AS%20raw_events%20BY%20index%20source%20host%20sourcetype&dataset.search.fields=
+						34 link Close, Value: [trial-host]/en-US/app/search/search?sid=1792776547.13033&dispatch.sample_ratio=1&display.page.search.mode=smart&workload_pool=&q=search%20index%3D%22main%22%20source%3D%22splunk-boundary-2026-10-23.jsonl%22%20host%3D%22p07-boundary-lab%22%20sourcetype%3D%22_json%22%20earliest%3D0%0A%7C%20stats%20count%20AS%20raw_events%20BY%20index%20source%20host%20sourcetype&earliest=0&latest=&display.general.type=statistics#
+						35 container
+							36 text entry area (settable) Search, Value: [text entry area: Search]
+								37 text (settable) 
+							38 container
+								39 text index= "main"  source= "splunk-boundary-2026-10-23.jsonl"  host= "p07-boundary-lab"     sourcetype= "_json" earliest = 0 | stats count AS  raw_events  BY  index source host sourcetype
+						40 pop up button Time range: All time
+						41 link Search Button, Value: [trial-host]/en-US/app/search/search?sid=1792776547.13033&dispatch.sample_ratio=1&display.page.search.mode=smart&workload_pool=&q=search%20index%3D%22main%22%20source%3D%22splunk-boundary-2026-10-23.jsonl%22%20host%3D%22p07-boundary-lab%22%20sourcetype%3D%22_json%22%20earliest%3D0%0A%7C%20stats%20count%20AS%20raw_events%20BY%20index%20source%20host%20sourcetype&earliest=0&latest=&display.general.type=statistics#
+						42 button AI Assistant
+						43 container
+							44 text Complete ✓ 36  events  (before 10/23/26 5:29:07.000 PM)
+						45 pop up button No Event Sampling
+						46 pop up button Job
+						47 button (disabled) Pause
+						48 button (disabled) Stop
+						49 button
+						50 button Print
+						51 button Export
+						52 pop up button Policy-Based Pool
+						53 combo box (collapsed, settable) Search Mode, Smart Mode, Secondary Actions: Expand, Value: Smart Mode
+
+							54 text Smart Mode
+						55 tab group (selectable)
+							56 tab (selectable) Events
+							57 tab (selectable) Patterns
+							58 tab (selected) Statistics (1)
+							59 tab (selectable) Visualization
+						60 combo box (collapsed, settable) Show: 20 Per Page, Secondary Actions: Expand, Value: Show: 20 Per Page
+
+							61 text Show: 
+							62 text 20 Per Page
+						63 pop up button Format visualization
+						64 switch (settable, boolean) Preview: On, Value: on
+						65 text Preview: On
+						66 table
+							67 row (selectable) index Press to sort in ascending order
+Format Column - index
+source Press to sort in ascending order
+Format Column - source
+host Press to sort in ascending order
+Format Column - host
+sourcetype Press to sort in ascending order
+Format Column - sourcetype
+raw_events Press to sort in descending order
+Format Column - raw_events, Description: Format Column - index
+Format Column - source
+Format Column - host
+Format Column - sourcetype
+Format Column - raw_events
+							68 row (selectable)
+								69 cell (selectable) main
+								70 cell (selectable) splunk-boundary-2026-10-23.jsonl
+								71 cell (selectable) p07-boundary-lab
+								72 cell (selectable) _json
+								73 cell (selectable) 36
+				74 scroll bar (settable, float) 0

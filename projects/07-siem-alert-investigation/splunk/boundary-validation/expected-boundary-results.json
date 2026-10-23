@@ -1,0 +1,43 @@
+{
+  "status": "PREPARED_EXPECTATIONS_NOT_SPLUNK_EXECUTION",
+  "fixture": "splunk-boundary-2026-10-23.jsonl",
+  "raw_event_count": 36,
+  "unique_four_field_tuples": 35,
+  "duplicate_tuples": 1,
+  "matching_success_rows": 4,
+  "expected_rows": [
+    {
+      "timestamp": "2026-10-07T09:05:00Z",
+      "username": "edge_300",
+      "source_ip": "192.0.2.11",
+      "failure_count": 3
+    },
+    {
+      "timestamp": "2026-10-07T09:04:00Z",
+      "username": "out_order",
+      "source_ip": "192.0.2.18",
+      "failure_count": 3
+    },
+    {
+      "timestamp": "2026-10-07T09:03:00Z",
+      "username": "two_successes",
+      "source_ip": "192.0.2.19",
+      "failure_count": 3
+    },
+    {
+      "timestamp": "2026-10-07T09:04:00Z",
+      "username": "two_successes",
+      "source_ip": "192.0.2.19",
+      "failure_count": 3
+    }
+  ],
+  "expected_nonmatching_users": [
+    "edge_301",
+    "same_second",
+    "ip_split",
+    "user_split",
+    "dup_check",
+    "two_only"
+  ],
+  "threshold_four_expected_rows": 0
+}

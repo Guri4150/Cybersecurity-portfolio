@@ -1,0 +1,97 @@
+Sanitized accessibility snapshot: browser chrome omitted; trial hostname and local paths replaced. Result values and search IDs preserved.
+
+				4 HTML content Description: Search | Splunk 10.6.1.0, URL: …
+					5 link Click here to skip the navigation bar, Value: [trial-host]/en-US/app/search/search?sid=1792776565.13034&dispatch.sample_ratio=1&display.page.search.mode=smart&workload_pool=&q=search%20index%3D%22main%22%20source%3D%22splunk-boundary-2026-10-23.jsonl%22%20host%3D%22p07-boundary-lab%22%20sourcetype%3D%22_json%22%20earliest%3D0%0A%7C%20eval%20utc_epoch%3Dstrptime(replace(timestamp%2C%22Z%24%22%2C%22%2B0000%22)%2C%22%25Y-%25m-%25dT%25H%3A%25M%3A%25S%25z%22)%0A%7C%20eval%20missing_or_multivalue%3Dif(coalesce(mvcount(timestamp)%2C0)!%3D1%20OR%20coalesce(mvcount(username)%2C0)!%3D1%20OR%20coalesce(mvcount(source_ip)%2C0)!%3D1%20OR%20coalesce(mvcount(status)%2C0)!%3D1%2C1%2C0)%0A%7C%20eval%20bad_status%3Dif(isnull(status)%20OR%20(status!%3D%22failure%22%20AND%20status!%3D%22success%22)%2C1%2C0)%0A%7C%20eval%20bad_time%3Dif(isnull(utc_epoch)%20OR%20NOT%20match(timestamp%2C%22%5E%5B0-9%5D%7B4%7D-%5B0-9%5D%7B2%7D-%5B0-9%5D%7B2%7DT%5B0-9%5D%7B2%7D%3A%5B0-9%5D%7B2%7D%3A%5B0-9%5D%7B2%7DZ%24%22)%2C1%2C0)%0A%7C%20eval%20time_mismatch%3Dif(isnull(utc_epoch)%20OR%20_time!%3Dutc_epoch%2C1%2C0)%0A%7C%20stats%20count%20AS%20raw_events%20sum(missing_or_multivalue)%20AS%20missing_or_multivalue%20sum(bad_status)%20AS%20bad_status%20sum(bad_time)%20AS%20bad_time%20sum(time_mismatch)%20AS%20time_mismatch%20min(utc_epoch)%20AS%20min_epoch%20max(utc_epoch)%20AS%20max_epoch&earliest=0&latest=&display.general.type=statistics#navSkip
+					6 container
+						7 link Skip to main content, Value: [trial-host]/en-US/app/search/search?sid=1792776565.13034&dispatch.sample_ratio=1&display.page.search.mode=smart&workload_pool=&q=search%20index%3D%22main%22%20source%3D%22splunk-boundary-2026-10-23.jsonl%22%20host%3D%22p07-boundary-lab%22%20sourcetype%3D%22_json%22%20earliest%3D0%0A%7C%20eval%20utc_epoch%3Dstrptime(replace(timestamp%2C%22Z%24%22%2C%22%2B0000%22)%2C%22%25Y-%25m-%25dT%25H%3A%25M%3A%25S%25z%22)%0A%7C%20eval%20missing_or_multivalue%3Dif(coalesce(mvcount(timestamp)%2C0)!%3D1%20OR%20coalesce(mvcount(username)%2C0)!%3D1%20OR%20coalesce(mvcount(source_ip)%2C0)!%3D1%20OR%20coalesce(mvcount(status)%2C0)!%3D1%2C1%2C0)%0A%7C%20eval%20bad_status%3Dif(isnull(status)%20OR%20(status!%3D%22failure%22%20AND%20status!%3D%22success%22)%2C1%2C0)%0A%7C%20eval%20bad_time%3Dif(isnull(utc_epoch)%20OR%20NOT%20match(timestamp%2C%22%5E%5B0-9%5D%7B4%7D-%5B0-9%5D%7B2%7D-%5B0-9%5D%7B2%7DT%5B0-9%5D%7B2%7D%3A%5B0-9%5D%7B2%7D%3A%5B0-9%5D%7B2%7DZ%24%22)%2C1%2C0)%0A%7C%20eval%20time_mismatch%3Dif(isnull(utc_epoch)%20OR%20_time!%3Dutc_epoch%2C1%2C0)%0A%7C%20stats%20count%20AS%20raw_events%20sum(missing_or_multivalue)%20AS%20missing_or_multivalue%20sum(bad_status)%20AS%20bad_status%20sum(bad_time)%20AS%20bad_time%20sum(time_mismatch)%20AS%20time_mismatch%20min(utc_epoch)%20AS%20min_epoch%20max(utc_epoch)%20AS%20max_epoch&earliest=0&latest=&display.general.type=statistics#main
+						8 link Splunk, Value: [trial-host]/en-US/app/launcher
+						9 button Health of Splunk Deployment
+						10 button Find
+						11 pop up button Activity
+						12 pop up button Settings
+						13 pop up button Notifications1 messages
+						14 pop up button Help
+						15 pop up button User Profile
+						16 pop up button Apps
+					17 container
+						18 container Side navigation panel
+							19 heading Side navigation panel, Value: 2
+								20 text Side navigation panel
+							21 switch (settable, boolean) Menu shrink, Value: on
+							22 link Search & Reporting logo, Value: [trial-host]/en-US/app/search
+							23 container
+								24 Search
+								25 Datasets
+								26 Reports
+								27 Alerts
+								28 Dashboards
+								29 Modules
+						30 heading New Search, Value: 1
+							31 text New Search
+						32 link Save As, Value: …
+						33 link Create Table View, Value: …
+						34 link Close, Value: …
+						35 container
+							36 text entry area (settable) Search, Value: [text entry area: Search]
+								37 text (settable) 
+							38 container
+								39 text index= "main"  source= "splunk-boundary-2026-10-23.jsonl"  host= "p07-boundary-lab"     sourcetype= "_json" earliest = 0 | eval  utc_epoch= strptime ( replace (timestamp, "Z$" , "+0000" ), "%Y-%m-%dT%H:%M:%S%z" ) | eval  missing_or_multivalue= if ( coalesce ( mvcount (timestamp), 0 )!= 1 OR coalesce     ( mvcount (username), 0 )!= 1 OR coalesce ( mvcount (source_ip), 0 )!= 1 OR coalesce     ( mvcount (status), 0 )!= 1,1 , 0 ) | eval  bad_status= if ( isnull (status)  OR  (status!= "failure" AND  status!= "success"     ), 1,0 ) | eval  bad_time= if ( isnull (utc_epoch)  OR  NOT  match (timestamp, "^[0-9]{4}-[0-9]{2} -[0-9]{2}T[0-9]{2}:[0-9]{2}:[0-9]{2}Z$" ), 1,0 ) | eval  time_mismatch= if ( isnull (utc_epoch)  OR  _time!=utc_epoch, 1,0 ) | stats count AS  raw_events  sum (missing_or_multivalue)  AS  missing_or_multivalue  sum (bad_status)  AS  bad_status  sum (bad_time)  AS  bad_time  sum (time_mismatch)  AS     time_mismatch  min (utc_epoch)  AS  min_epoch  max (utc_epoch)  AS  max_epoch
+						40 pop up button Time range: All time
+						41 link Search Button, Value: …
+						42 button AI Assistant
+						43 container
+							44 text Complete ✓ 36  events  (before 10/23/26 5:29:25.000 PM)
+						45 pop up button No Event Sampling
+						46 pop up button Job
+						47 button (disabled) Pause
+						48 button (disabled) Stop
+						49 button
+						50 button Print
+						51 button Export
+						52 pop up button Policy-Based Pool
+						53 combo box (collapsed, settable) Search Mode, Smart Mode, Secondary Actions: Expand, Value: Smart Mode
+
+							54 text Smart Mode
+						55 tab group (selectable)
+							56 tab (selectable) Events
+							57 tab (selectable) Patterns
+							58 tab (selected) Statistics (1)
+							59 tab (selectable) Visualization
+						60 combo box (collapsed, settable) Show: 20 Per Page, Secondary Actions: Expand, Value: Show: 20 Per Page
+
+							61 text Show: 
+							62 text 20 Per Page
+						63 pop up button Format visualization
+						64 switch (settable, boolean) Preview: On, Value: on
+						65 text Preview: On
+						66 table
+							67 row (selectable) raw_events Press to sort in descending order
+Format Column - raw_events
+missing_or_multivalue Press to sort in descending order
+Format Column - missing_or_multivalue
+bad_status Press to sort in descending order
+Format Column - bad_status
+bad_time Press to sort in descending order
+Format Column - bad_time
+time_mismatch Press to sort in descending order
+Format Column - time_mismatch
+min_epoch Press to sort in descending order
+Format Column - min_epoch
+max_epoch Press to sort in descending order
+Format Column - max_epoch, Description: Format Column - raw_events
+Format Column - missing_or_multivalue
+Format Column - bad_status
+Format Column - bad_time
+Format Column - time_mismatch
+Format Column - min_epoch
+Format Column - max_epoch
+							68 row (selectable)
+								69 cell (selectable) 36
+								70 cell (selectable) 0
+								71 cell (selectable) 0
+								72 cell (selectable) 0
+								73 cell (selectable) 0
+								74 cell (selectable) 1791363600.000000
+								75 cell (selectable) 1791363901.000000
+				76 scroll bar (settable, float) 0
+				77 scroll bar (settable, float) 0

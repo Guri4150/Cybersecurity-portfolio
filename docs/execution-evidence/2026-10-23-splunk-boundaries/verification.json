@@ -1,0 +1,16 @@
+{
+  "status": "PASS_FOR_DOCUMENTED_SYNTHETIC_CASES",
+  "operator": "assistant through Safari, owner-authorized",
+  "splunk_execution": true,
+  "raw_events_observed": 36,
+  "unique_tuples_observed": 35,
+  "baseline_alert_rows_observed": 4,
+  "baseline_threshold4_rows_observed": 0,
+  "baseline_diagnostic_cases_matched": 10,
+  "utc_variant_alert_rows_observed": 4,
+  "utc_variant_threshold4_rows_observed": 0,
+  "utc_variant_diagnostic_cases_matched": 10,
+  "expected_source": "../../../projects/07-siem-alert-investigation/splunk/boundary-validation/expected-boundary-results.json",
+  "fixture_sha256": "a87e397a52d9647664ce8f71b2d8e4f671ed86e2bf8276e0f165dca7658e97bd",
+  "limitations": "Fixture-only manual UI execution; full search logs not audited."
+}

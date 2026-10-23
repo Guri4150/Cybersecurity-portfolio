@@ -1,0 +1,106 @@
+[
+  {
+    "name": "01-ingestion",
+    "completedObserved": "2026-10-23T17:29:15.289Z",
+    "sid": "1792776547.13033",
+    "dispatch_utc_from_sid": "2026-10-23T17:29:07+00:00",
+    "query_file": "01-ingestion.spl",
+    "note": "Dispatch time inferred from SID epoch; completedObserved is assistant observation time, not server completion time."
+  },
+  {
+    "name": "02-quality",
+    "completedObserved": "2026-10-23T17:29:30.183Z",
+    "sid": "1792776565.13034",
+    "dispatch_utc_from_sid": "2026-10-23T17:29:25+00:00",
+    "query_file": "02-quality.spl",
+    "note": "Dispatch time inferred from SID epoch; completedObserved is assistant observation time, not server completion time."
+  },
+  {
+    "name": "03-dedup",
+    "completedObserved": "2026-10-23T17:29:44.591Z",
+    "sid": "1792776580.13035",
+    "dispatch_utc_from_sid": "2026-10-23T17:29:40+00:00",
+    "query_file": "03-dedup.spl",
+    "note": "Dispatch time inferred from SID epoch; completedObserved is assistant observation time, not server completion time."
+  },
+  {
+    "name": "04-duplicate-detail",
+    "completedObserved": "2026-10-23T17:29:54.080Z",
+    "sid": "1792776590.13036",
+    "dispatch_utc_from_sid": "2026-10-23T17:29:50+00:00",
+    "query_file": "04-duplicate-detail.spl",
+    "note": "Dispatch time inferred from SID epoch; completedObserved is assistant observation time, not server completion time."
+  },
+  {
+    "name": "05-time-probe",
+    "completedObserved": "2026-10-23T17:30:08.772Z",
+    "sid": "1792776605.13037",
+    "dispatch_utc_from_sid": "2026-10-23T17:30:05+00:00",
+    "query_file": "05-time-probe.spl",
+    "note": "Dispatch time inferred from SID epoch; completedObserved is assistant observation time, not server completion time."
+  },
+  {
+    "name": "06-candidate-threshold3",
+    "completedObserved": "2026-10-23T17:30:23.530Z",
+    "sid": "1792776619.13039",
+    "dispatch_utc_from_sid": "2026-10-23T17:30:19+00:00",
+    "query_file": "06-candidate-threshold3.spl",
+    "note": "Dispatch time inferred from SID epoch; completedObserved is assistant observation time, not server completion time."
+  },
+  {
+    "name": "07-all-successes",
+    "completedObserved": "2026-10-23T17:30:49.649Z",
+    "sid": "1792776643.13040",
+    "dispatch_utc_from_sid": "2026-10-23T17:30:43+00:00",
+    "query_file": "07-all-successes.spl",
+    "note": "Dispatch time inferred from SID epoch; completedObserved is assistant observation time, not server completion time."
+  },
+  {
+    "name": "08-candidate-threshold4",
+    "completedObserved": "2026-10-23T17:31:07.289Z",
+    "sid": "1792776663.13041",
+    "dispatch_utc_from_sid": "2026-10-23T17:31:03+00:00",
+    "query_file": "08-candidate-threshold4.spl",
+    "note": "Dispatch time inferred from SID epoch; completedObserved is assistant observation time, not server completion time."
+  },
+  {
+    "name": "10-candidate-threshold3-restored",
+    "completedObserved": "2026-10-23T17:31:21.227Z",
+    "sid": "1792776678.13043",
+    "dispatch_utc_from_sid": "2026-10-23T17:31:18+00:00",
+    "query_file": "10-candidate-threshold3-restored.spl",
+    "note": "Dispatch time inferred from SID epoch; completedObserved is assistant observation time, not server completion time."
+  },
+  {
+    "name": "09-utc-explicit-threshold3",
+    "completedObserved": "2026-10-23T17:31:33.552Z",
+    "sid": "1792776690.13044",
+    "dispatch_utc_from_sid": "2026-10-23T17:31:30+00:00",
+    "query_file": "09-utc-explicit-threshold3.spl",
+    "note": "Dispatch time inferred from SID epoch; completedObserved is assistant observation time, not server completion time."
+  },
+  {
+    "name": "11-utc-all-successes",
+    "completedObserved": "2026-10-23T17:31:48.435Z",
+    "sid": "1792776704.13045",
+    "dispatch_utc_from_sid": "2026-10-23T17:31:44+00:00",
+    "query_file": "11-utc-all-successes.spl",
+    "note": "Dispatch time inferred from SID epoch; completedObserved is assistant observation time, not server completion time."
+  },
+  {
+    "name": "12-utc-threshold4",
+    "completedObserved": "2026-10-23T17:32:04.771Z",
+    "sid": "1792776719.13046",
+    "dispatch_utc_from_sid": "2026-10-23T17:31:59+00:00",
+    "query_file": "12-utc-threshold4.spl",
+    "note": "Dispatch time inferred from SID epoch; completedObserved is assistant observation time, not server completion time."
+  },
+  {
+    "name": "13-utc-threshold3-restored",
+    "sid": "1792776734.13048",
+    "completedObserved": "2026-10-23T17:32:41.835Z",
+    "dispatch_utc_from_sid": "2026-10-23T17:32:14+00:00",
+    "query_file": "13-utc-threshold3-restored.spl",
+    "note": "Dispatch time inferred from SID epoch; completedObserved is assistant observation time, not server completion time."
+  }
+]

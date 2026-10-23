@@ -1,0 +1,2 @@
+index="main" source="splunk-boundary-2026-10-23.jsonl" host="p07-boundary-lab" sourcetype="_json" earliest=0
+| stats count AS raw_events BY index source host sourcetype

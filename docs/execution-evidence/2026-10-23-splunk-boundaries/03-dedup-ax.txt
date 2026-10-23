@@ -1,0 +1,80 @@
+Sanitized accessibility snapshot: browser chrome omitted; trial hostname and local paths replaced. Result values and search IDs preserved.
+
+				4 HTML content Description: Search | Splunk 10.6.1.0, URL: [trial-host]/en-US/app/search/search?sid=1792776580.13035&dispatch.sample_ratio=1&display.page.search.mode=smart&workload_pool=&q=search%20index%3D%22main%22%20source%3D%22splunk-boundary-2026-10-23.jsonl%22%20host%3D%22p07-boundary-lab%22%20sourcetype%3D%22_json%22%20earliest%3D0%0A%7C%20dedup%20timestamp%20username%20source_ip%20status%0A%7C%20stats%20count%20AS%20unique_tuples%20count(eval(status%3D%22failure%22))%20AS%20failures%20count(eval(status%3D%22success%22))%20AS%20successes&earliest=0&latest=&display.general.type=statistics
+					5 link Click here to skip the navigation bar, Value: [trial-host]/en-US/app/search/search?sid=1792776580.13035&dispatch.sample_ratio=1&display.page.search.mode=smart&workload_pool=&q=search%20index%3D%22main%22%20source%3D%22splunk-boundary-2026-10-23.jsonl%22%20host%3D%22p07-boundary-lab%22%20sourcetype%3D%22_json%22%20earliest%3D0%0A%7C%20dedup%20timestamp%20username%20source_ip%20status%0A%7C%20stats%20count%20AS%20unique_tuples%20count(eval(status%3D%22failure%22))%20AS%20failures%20count(eval(status%3D%22success%22))%20AS%20successes&earliest=0&latest=&display.general.type=statistics#navSkip
+					6 container
+						7 link Skip to main content, Value: [trial-host]/en-US/app/search/search?sid=1792776580.13035&dispatch.sample_ratio=1&display.page.search.mode=smart&workload_pool=&q=search%20index%3D%22main%22%20source%3D%22splunk-boundary-2026-10-23.jsonl%22%20host%3D%22p07-boundary-lab%22%20sourcetype%3D%22_json%22%20earliest%3D0%0A%7C%20dedup%20timestamp%20username%20source_ip%20status%0A%7C%20stats%20count%20AS%20unique_tuples%20count(eval(status%3D%22failure%22))%20AS%20failures%20count(eval(status%3D%22success%22))%20AS%20successes&earliest=0&latest=&display.general.type=statistics#main
+						8 link Splunk, Value: [trial-host]/en-US/app/launcher
+						9 button Health of Splunk Deployment
+						10 button Find
+						11 pop up button Activity
+						12 pop up button Settings
+						13 pop up button Notifications1 messages
+						14 pop up button Help
+						15 pop up button User Profile
+						16 pop up button Apps
+					17 container
+						18 container Side navigation panel
+							19 heading Side navigation panel, Value: 2
+								20 text Side navigation panel
+							21 switch (settable, boolean) Menu shrink, Value: on
+							22 link Search & Reporting logo, Value: [trial-host]/en-US/app/search
+							23 container
+								24 Search
+								25 Datasets
+								26 Reports
+								27 Alerts
+								28 Dashboards
+								29 Modules
+						30 heading New Search, Value: 1
+							31 text New Search
+						32 link Save As, Value: [trial-host]/en-US/app/search/search?sid=1792776580.13035&dispatch.sample_ratio=1&display.page.search.mode=smart&workload_pool=&q=search%20index%3D%22main%22%20source%3D%22splunk-boundary-2026-10-23.jsonl%22%20host%3D%22p07-boundary-lab%22%20sourcetype%3D%22_json%22%20earliest%3D0%0A%7C%20dedup%20timestamp%20username%20source_ip%20status%0A%7C%20stats%20count%20AS%20unique_tuples%20count(eval(status%3D%22failure%22))%20AS%20failures%20count(eval(status%3D%22success%22))%20AS%20successes&earliest=0&latest=&display.general.type=statistics#
+						33 link Create Table View, Value: [trial-host]/en-US/app/search/table?bs=index%3D%22main%22%20source%3D%22splunk-boundary-2026-10-23.jsonl%22%20host%3D%22p07-boundary-lab%22%20sourcetype%3D%22_json%22%20earliest%3D0%0A%7C%20dedup%20timestamp%20username%20source_ip%20status%0A%7C%20stats%20count%20AS%20unique_tuples%20count(eval(status%3D%22failure%22))%20AS%20failures%20count(eval(status%3D%22success%22))%20AS%20successes&dataset.search.fields=
+						34 link Close, Value: [trial-host]/en-US/app/search/search?sid=1792776580.13035&dispatch.sample_ratio=1&display.page.search.mode=smart&workload_pool=&q=search%20index%3D%22main%22%20source%3D%22splunk-boundary-2026-10-23.jsonl%22%20host%3D%22p07-boundary-lab%22%20sourcetype%3D%22_json%22%20earliest%3D0%0A%7C%20dedup%20timestamp%20username%20source_ip%20status%0A%7C%20stats%20count%20AS%20unique_tuples%20count(eval(status%3D%22failure%22))%20AS%20failures%20count(eval(status%3D%22success%22))%20AS%20successes&earliest=0&latest=&display.general.type=statistics#
+						35 container
+							36 text entry area (settable) Search, Value: [text entry area: Search]
+								37 text (settable) 
+							38 container
+								39 text index= "main"  source= "splunk-boundary-2026-10-23.jsonl"  host= "p07-boundary-lab"     sourcetype= "_json" earliest = 0 | dedup  timestamp username source_ip status | stats count AS  unique_tuples  count ( eval (status= "failure" ))  AS  failures  count     ( eval (status= "success" ))  AS  successes
+						40 pop up button Time range: All time
+						41 link Search Button, Value: [trial-host]/en-US/app/search/search?sid=1792776580.13035&dispatch.sample_ratio=1&display.page.search.mode=smart&workload_pool=&q=search%20index%3D%22main%22%20source%3D%22splunk-boundary-2026-10-23.jsonl%22%20host%3D%22p07-boundary-lab%22%20sourcetype%3D%22_json%22%20earliest%3D0%0A%7C%20dedup%20timestamp%20username%20source_ip%20status%0A%7C%20stats%20count%20AS%20unique_tuples%20count(eval(status%3D%22failure%22))%20AS%20failures%20count(eval(status%3D%22success%22))%20AS%20successes&earliest=0&latest=&display.general.type=statistics#
+						42 button AI Assistant
+						43 container
+							44 text Complete ✓ 35  events  (before 10/23/26 5:29:40.000 PM)
+						45 pop up button No Event Sampling
+						46 pop up button Job
+						47 button (disabled) Pause
+						48 button (disabled) Stop
+						49 button
+						50 button Print
+						51 button Export
+						52 pop up button Policy-Based Pool
+						53 combo box (collapsed, settable) Search Mode, Smart Mode, Secondary Actions: Expand, Value: Smart Mode
+
+							54 text Smart Mode
+						55 tab group (selectable)
+							56 tab (selectable) Events
+							57 tab (selectable) Patterns
+							58 tab (selected) Statistics (1)
+							59 tab (selectable) Visualization
+						60 combo box (collapsed, settable) Show: 20 Per Page, Secondary Actions: Expand, Value: Show: 20 Per Page
+
+							61 text Show: 
+							62 text 20 Per Page
+						63 pop up button Format visualization
+						64 switch (settable, boolean) Preview: On, Value: on
+						65 text Preview: On
+						66 table
+							67 row (selectable) unique_tuples Press to sort in descending order
+Format Column - unique_tuples
+failures Press to sort in descending order
+Format Column - failures
+successes Press to sort in descending order
+Format Column - successes, Description: Format Column - unique_tuples
+Format Column - failures
+Format Column - successes
+							68 row (selectable)
+								69 cell (selectable) 35
+								70 cell (selectable) 25
+								71 cell (selectable) 10
+				72 scroll bar (settable, float) 0

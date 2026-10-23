@@ -1,0 +1,264 @@
+Sanitized accessibility snapshot: browser chrome omitted; trial hostname and local paths replaced. Result values and search IDs preserved.
+
+				4 HTML content Description: Add Data - Set Sourcetype | Splunk 10.6.1.0, URL: [trial-host]/en-US/manager/search/adddatamethods/datapreview
+					5 link Click here to skip the navigation bar, Value: [trial-host]/en-US/manager/search/adddatamethods/datapreview#navSkip
+					6 container
+						7 link splunk logo home, Help: splunk > listen to your data, Value: [trial-host]/en-US
+						8 pop up button Apps
+						9 pop up button 1 Messages, Help: Messages
+						10 pop up button Settings
+						11 pop up button Activity
+						12 search text field (settable) Find
+							13 text Find
+						14 button View health report with status green, Help: Health: green
+						15 pop up button Splunk Cloud Admin, Help: User
+						16 pop up button Support & Services
+					17 container
+						18 heading Add Data, Value: 1
+							19 link Add Data, Value: [trial-host]/en-US/manager/search/adddata
+						20 text Select Source
+						21 text Set Source Type
+						22 text Input Settings
+						23 text Review
+						24 text Done
+						25 container
+							26 link ‹ Back, Value: [trial-host]/en-US/manager/search/adddatamethods/datapreview#
+							27 link Next ›, Value: [trial-host]/en-US/manager/search/adddatamethods/datapreview#
+						28 text Set Source Type This page lets you see how the Splunk platform sees your data before indexing. If the events look correct and have the right timestamps, click "Next" to proceed. If not, use the options below to define proper event breaks and timestamps. If you cannot find an appropriate source type for your data, create a new one by clicking "Save As". Source: splunk-boundary-2026-10-23.jsonl
+						29 link View Event Summary, Value: [trial-host]/en-US/manager/search/adddatamethods/datapreview#
+						30 pop up button Source type: _json
+						31 link Save As, Value: [trial-host]/en-US/manager/search/adddatamethods/datapreview#
+						32 link › Timestamp, Value: [trial-host]/en-US/manager/search/adddatamethods/datapreview#collapse1
+						33 link › Advanced, Value: [trial-host]/en-US/manager/search/adddatamethods/datapreview#collapse4
+						34 pop up button Format visualization
+						35 combo box (collapsed, settable) Select..., Secondary Actions: Expand, Value: Select...
+
+							36 text Select...
+						37 combo box (collapsed, settable) Select..., Secondary Actions: Expand, Value: Select...
+
+							38 text Select...
+						39 container
+							40 container Go to previous page
+								41 container Go to previous page
+									42 text ‹ Prev
+							43 link Go to page 1 of table, Value: [trial-host]/en-US/manager/search/adddatamethods/datapreview#
+							44 link Go to page 2 of table, Value: [trial-host]/en-US/manager/search/adddatamethods/datapreview#
+							45 link Go to next page, Value: [trial-host]/en-US/manager/search/adddatamethods/datapreview#
+						46 table
+							47 row (selectable) line number
+_time
+source_ip
+status
+timestamp
+username, Value: _time
+source_ip
+↕
+status
+↕
+timestamp
+↕
+username
+↕
+						48 table
+							49 row (selectable)
+								50 cell (selectable) 1
+								51 cell (selectable)
+								52 cell (selectable) 10/7/26
+9:00:00.000 AM
+								53 cell (selectable) 192.0.2.11
+								54 cell (selectable) failure
+								55 cell (selectable) 2026-10-07T09:00:00Z
+								56 cell (selectable) edge_300
+							57 row (selectable)
+								58 cell (selectable) 2
+								59 cell (selectable)
+								60 cell (selectable) 10/7/26
+9:02:00.000 AM
+								61 cell (selectable) 192.0.2.11
+								62 cell (selectable) failure
+								63 cell (selectable) 2026-10-07T09:02:00Z
+								64 cell (selectable) edge_300
+							65 row (selectable)
+								66 cell (selectable) 3
+								67 cell (selectable)
+								68 cell (selectable) 10/7/26
+9:04:00.000 AM
+								69 cell (selectable) 192.0.2.11
+								70 cell (selectable) failure
+								71 cell (selectable) 2026-10-07T09:04:00Z
+								72 cell (selectable) edge_300
+							73 row (selectable)
+								74 cell (selectable) 4
+								75 cell (selectable)
+								76 cell (selectable) 10/7/26
+9:05:00.000 AM
+								77 cell (selectable) 192.0.2.11
+								78 cell (selectable) success
+								79 cell (selectable) 2026-10-07T09:05:00Z
+								80 cell (selectable) edge_300
+							81 row (selectable)
+								82 cell (selectable) 5
+								83 cell (selectable)
+								84 cell (selectable) 10/7/26
+9:00:00.000 AM
+								85 cell (selectable) 192.0.2.12
+								86 cell (selectable) failure
+								87 cell (selectable) 2026-10-07T09:00:00Z
+								88 cell (selectable) edge_301
+							89 row (selectable)
+								90 cell (selectable) 6
+								91 cell (selectable)
+								92 cell (selectable) 10/7/26
+9:02:00.000 AM
+								93 cell (selectable) 192.0.2.12
+								94 cell (selectable) failure
+								95 cell (selectable) 2026-10-07T09:02:00Z
+								96 cell (selectable) edge_301
+							97 row (selectable)
+								98 cell (selectable) 7
+								99 cell (selectable)
+								100 cell (selectable) 10/7/26
+9:04:00.000 AM
+								101 cell (selectable) 192.0.2.12
+								102 cell (selectable) failure
+								103 cell (selectable) 2026-10-07T09:04:00Z
+								104 cell (selectable) edge_301
+							105 row (selectable)
+								106 cell (selectable) 8
+								107 cell (selectable)
+								108 cell (selectable) 10/7/26
+9:05:01.000 AM
+								109 cell (selectable) 192.0.2.12
+								110 cell (selectable) success
+								111 cell (selectable) 2026-10-07T09:05:01Z
+								112 cell (selectable) edge_301
+							113 row (selectable)
+								114 cell (selectable) 9
+								115 cell (selectable)
+								116 cell (selectable) 10/7/26
+9:00:00.000 AM
+								117 cell (selectable) 192.0.2.13
+								118 cell (selectable) failure
+								119 cell (selectable) 2026-10-07T09:00:00Z
+								120 cell (selectable) same_second
+							121 row (selectable)
+								122 cell (selectable) 10
+								123 cell (selectable)
+								124 cell (selectable) 10/7/26
+9:02:00.000 AM
+								125 cell (selectable) 192.0.2.13
+								126 cell (selectable) failure
+								127 cell (selectable) 2026-10-07T09:02:00Z
+								128 cell (selectable) same_second
+							129 row (selectable)
+								130 cell (selectable) 11
+								131 cell (selectable)
+								132 cell (selectable) 10/7/26
+9:05:00.000 AM
+								133 cell (selectable) 192.0.2.13
+								134 cell (selectable) failure
+								135 cell (selectable) 2026-10-07T09:05:00Z
+								136 cell (selectable) same_second
+							137 row (selectable)
+								138 cell (selectable) 12
+								139 cell (selectable)
+								140 cell (selectable) 10/7/26
+9:05:00.000 AM
+								141 cell (selectable) 192.0.2.13
+								142 cell (selectable) success
+								143 cell (selectable) 2026-10-07T09:05:00Z
+								144 cell (selectable) same_second
+							145 row (selectable)
+								146 cell (selectable) 13
+								147 cell (selectable)
+								148 cell (selectable) 10/7/26
+9:00:00.000 AM
+								149 cell (selectable) 192.0.2.14
+								150 cell (selectable) failure
+								151 cell (selectable) 2026-10-07T09:00:00Z
+								152 cell (selectable) ip_split
+							153 row (selectable)
+								154 cell (selectable) 14
+								155 cell (selectable)
+								156 cell (selectable) 10/7/26
+9:02:00.000 AM
+								157 cell (selectable) 192.0.2.14
+								158 cell (selectable) failure
+								159 cell (selectable) 2026-10-07T09:02:00Z
+								160 cell (selectable) ip_split
+							161 row (selectable)
+								162 cell (selectable) 15
+								163 cell (selectable)
+								164 cell (selectable) 10/7/26
+9:04:00.000 AM
+								165 cell (selectable) 192.0.2.15
+								166 cell (selectable) failure
+								167 cell (selectable) 2026-10-07T09:04:00Z
+								168 cell (selectable) ip_split
+							169 row (selectable)
+								170 cell (selectable) 16
+								171 cell (selectable)
+								172 cell (selectable) 10/7/26
+9:05:00.000 AM
+								173 cell (selectable) 192.0.2.14
+								174 cell (selectable) success
+								175 cell (selectable) 2026-10-07T09:05:00Z
+								176 cell (selectable) ip_split
+							177 row (selectable)
+								178 cell (selectable) 17
+								179 cell (selectable)
+								180 cell (selectable) 10/7/26
+9:00:00.000 AM
+								181 cell (selectable) 192.0.2.16
+								182 cell (selectable) failure
+								183 cell (selectable) 2026-10-07T09:00:00Z
+								184 cell (selectable) user_split
+							185 row (selectable)
+								186 cell (selectable) 18
+								187 cell (selectable)
+								188 cell (selectable) 10/7/26
+9:02:00.000 AM
+								189 cell (selectable) 192.0.2.16
+								190 cell (selectable) failure
+								191 cell (selectable) 2026-10-07T09:02:00Z
+								192 cell (selectable) user_split
+							193 row (selectable)
+								194 cell (selectable) 19
+								195 cell (selectable)
+								196 cell (selectable) 10/7/26
+9:04:00.000 AM
+								197 cell (selectable) 192.0.2.16
+								198 cell (selectable) failure
+								199 cell (selectable) 2026-10-07T09:04:00Z
+								200 cell (selectable) other_user
+							201 row (selectable)
+								202 cell (selectable) 20
+								203 cell (selectable)
+								204 cell (selectable) 10/7/26
+9:05:00.000 AM
+								205 cell (selectable) 192.0.2.16
+								206 cell (selectable) success
+								207 cell (selectable) 2026-10-07T09:05:00Z
+								208 cell (selectable) user_split
+					209 heading Event Summary, Value: 3
+						210 text Event Summary
+					211 text Sample size
+					212 text 3725 bytes
+					213 text Events
+					214 text 36
+					215 text Event time distribution
+					216 container Created with Highcharts 9.3.3
+						217 text 0
+						218 text 10
+					219 container
+						220 text 10/7/26 2:30 PM 10/7/26 2:35 PM
+					221 text Number of lines per event
+					222 table
+						223 row (selectable) # of lines
+# of events
+% of events
+						224 row (selectable)
+							225 cell (selectable) 1
+							226 cell (selectable) 36
+							227 cell (selectable) 100%
+				228 scroll bar (settable, float) 0
