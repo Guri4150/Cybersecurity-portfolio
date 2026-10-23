@@ -1,10 +1,26 @@
 # Synthetic SIEM-style alert investigation
 
-A SOC learning project using entirely fictional authentication events.
-It extends project 06 with offline Python correlation and an assistant-guided
-Splunk Cloud lab run on 22 October 2026. The lab ingested seven fictional
-events and reproduced the expected single match. It does not ingest live
-telemetry, establish a real incident, or demonstrate production SOC experience.
+A SOC learning project that correlates fictional authentication failures with
+a later success for the same account and source IP. The rule requires at least
+three unique failures in the rolling five minutes before each success:
+a failure exactly 300 seconds earlier counts; a failure at the success timestamp
+does not.
+
+The project combines an offline Python detector, a simulated investigation and
+assistant-operated Splunk Cloud validation. In the 23 October 2026 boundary
+run, 36 raw events reduced to 35 unique tuples; all 10 success-event diagnostics
+matched expected counts and ages. Threshold 3 returned four qualifying
+successes, threshold 4 returned none, and restoring 3 returned the same four.
+
+The [dated evidence](../../docs/execution-evidence/2026-10-23-splunk-boundaries/EXECUTION-RECORD.md)
+includes CSV exports, screenshots and exact executed SPL. The
+[run sheet](splunk/boundary-validation/RUN-SHEET.md) supports a repeatable check.
+This demonstrates synthetic rule validation and evidence handling; a matching
+sequence does not confirm compromise. The Splunk run was assistant-operated
+in the owner's authorized trial, with independent owner repetition still pending.
+
+For a concise walkthrough and practice questions, see the
+[interview notes](INTERVIEW-NOTES.md).
 
 ## Scenario and result
 

@@ -11,7 +11,7 @@ I enjoy investigating security problems, documenting findings clearly, and conne
 
 Projects 01–05 reconstruct training exercises and document example investigation methods. They are educational work, not production security engagements. Original screenshots, packet captures, and lab transcripts are not included; examples and expected results are labeled accordingly.
 
-Projects 06 and 07 include runnable Python, fictional input, automated tests, and example output. Project 07 also includes an assistant-guided Splunk Cloud run on seven fictional events, a threshold check, a saved report, and screenshot evidence. These projects do not claim production security experience.
+Projects 06 and 07 include runnable Python, fictional input, automated tests, and example output. Project 07 also includes assistant-operated Splunk Cloud validation: a 36-record fictional fixture produced four qualifying successes, and all 10 success-event diagnostics matched expected failure counts and ages. The [execution record](docs/execution-evidence/2026-10-23-splunk-boundaries/EXECUTION-RECORD.md) separates observed results from expectations and includes CSV exports, screenshots and executed SPL. These projects do not claim production security experience.
 
 Project 08 retains its fictional vulnerability-assessment tabletop and adds a separate loopback backup-exposure lab. An assistant-operated Mac run passed eight before/after HTTP checks; the original four simulated findings remain open.
 
@@ -25,7 +25,7 @@ Project 09 combines a fictional DNS triage tabletop, Mac-tested Python detection
 | [File integrity verification](projects/04-file-integrity.md) | Comparing files using cryptographic hashes | Linux, SHA-256 |
 | [SOC incident triage case study](projects/05-incident-triage.md) | Evaluating alerts, preserving evidence, and documenting decisions | Incident response, risk, escalation |
 | [Python authentication-log parser](projects/06-auth-log-parser/README.md) | Validating fictional logs and summarizing authentication outcomes | Python, JSONL, unittest |
-| [Synthetic SIEM-style alert investigation](projects/07-siem-alert-investigation/README.md) | Time-window correlation, alert triage, severity and response reasoning | Python, Splunk Cloud, SPL, SOC documentation |
+| [Synthetic SIEM-style alert investigation](projects/07-siem-alert-investigation/README.md) | Rolling five-minute correlation, boundary validation, evidence handling and alert triage | Python, Splunk Cloud, SPL, SOC documentation |
 | [Fictional vulnerability assessment](projects/08-vulnerability-assessment-lab/README.md) | Lab scope, asset inventory, sample findings, prioritization and remediation planning | CVSS v3.1-style scoring, least privilege, validation criteria |
 | [DNS detection lab and triage](projects/09-dns-detection-lab/README.md) | Mac-tested Python; assisted Splunk ingestion, SPL validation, negative controls and scheduled historical alert testing | DNS, Python, Splunk Cloud, SPL, evidence handling |
 
@@ -92,8 +92,14 @@ This is separate from my own local execution and the pending lab milestones.
   Mac run passed eight checks before and after disabling a fictional backup
   route. See the [Mac execution evidence](projects/08-vulnerability-assessment-lab/hands-on/mac-execution-2026-10-22.md).
   The original four tabletop findings remain simulated and open.
-- **Further lab work:** Validate more SPL boundary cases and independently
-  repeat the micro-lab. The broader multi-asset assessment remains pending.
+- **Project 07 Splunk boundary validation completed — 23 October 2026:**
+  An assistant-operated run ingested 36 fictional events (35 unique tuples).
+  All 10 success-event diagnostics matched expectations; threshold 3 returned
+  four matches, threshold 4 returned none, and restoring 3 returned four.
+  See the [execution record](docs/execution-evidence/2026-10-23-splunk-boundaries/EXECUTION-RECORD.md)
+  and [repeatable run sheet](projects/07-siem-alert-investigation/splunk/boundary-validation/RUN-SHEET.md).
+- **Further lab work:** Independently repeat Project 07's boundary run and the
+  Project 08 micro-lab. The broader multi-asset assessment remains pending.
 
 Follow the [local execution guide](docs/local-execution-guide.md) and
 [evidence checklist](docs/evidence-checklist.md). Update a milestone only after
