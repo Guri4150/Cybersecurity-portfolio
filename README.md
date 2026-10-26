@@ -13,7 +13,7 @@ Projects 01–05 reconstruct training exercises and document example investigati
 
 Projects 06 and 07 include runnable Python, fictional input, automated tests, and example output. Project 07 also includes assistant-operated Splunk Cloud validation: a 36-record fictional fixture produced four qualifying successes, and all 10 success-event diagnostics matched expected failure counts and ages. The [execution record](docs/execution-evidence/2026-10-23-splunk-boundaries/EXECUTION-RECORD.md) separates observed results from expectations and includes CSV exports, screenshots and executed SPL. These projects do not claim production security experience.
 
-Project 08 retains its fictional vulnerability-assessment tabletop and adds a separate loopback backup-exposure lab. An assistant-operated Mac run passed eight before/after HTTP checks; the original four simulated findings remain open.
+Project 08 retains its fictional vulnerability-assessment tabletop and adds a separate loopback backup-exposure lab. Assistant-operated Mac runs on 22 and 26 October 2026 each passed eight before/after HTTP checks; the original four simulated findings remain open.
 
 Project 09 combines a fictional DNS triage tabletop, Mac-tested Python detection, and an assisted Splunk Cloud trial lab. Synthetic ingestion, native search results and scheduled historical alert firing were observed; the replay alert was disabled after testing. The [dated evidence summary](projects/09-dns-detection-lab/splunk/evidence-2026-10-21.md) distinguishes observations from retained raw evidence. No live capture, Wireshark execution or production detection is claimed.
 
@@ -92,6 +92,10 @@ This is separate from my own local execution and the pending lab milestones.
   Mac run passed eight checks before and after disabling a fictional backup
   route. See the [Mac execution evidence](projects/08-vulnerability-assessment-lab/hands-on/mac-execution-2026-10-22.md).
   The original four tabletop findings remain simulated and open.
+- **Project 08 assistant-operated Mac rerun — 26 October 2026:** A fresh run
+  of the unchanged pinned script passed all eight HTTP checks. Source and response
+  hashes, timestamps and exit status were checked; see the [rerun evidence](projects/08-vulnerability-assessment-lab/hands-on/mac-execution-2026-10-26.md).
+  This is assisted execution; the independent owner repeat remains pending.
 - **Project 07 Splunk boundary validation completed — 23 October 2026:**
   An assistant-operated run ingested 36 fictional events (35 unique tuples).
   All 10 success-event diagnostics matched expectations; threshold 3 returned
